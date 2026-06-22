@@ -28,7 +28,7 @@
 
 <img width="220" src="https://media.giphy.com/media/L8K62iDDtAVQ4E941g/giphy.gif"/>
 
-**`SHOUBHIK.exe`**
+**`SHOUBHIK_BHATTACHARYA.exe`**
 *Game Artist / Technical Artist*
 
 ![Status](https://img.shields.io/badge/STATUS-OPEN%20TO%20WORK-39FF14?style=flat-square&labelColor=000000)
@@ -55,9 +55,9 @@ WEAPON LOADOUT = Blender // Substance Painter // Unreal Engine // Unity
 <div align="center">
 
 [![ArtStation](https://img.shields.io/badge/🎨_ARTSTATION-View_Portfolio-13AFF0?style=for-the-badge&logo=artstation&logoColor=white)](https://www.artstation.com/gamedev_shoubhik2)
+[![itch.io](https://img.shields.io/badge/🕹️_ITCH.IO-Play_My_Games-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white)](https://shoubhik-bhattacharya.itch.io/)
 [![GitHub](https://img.shields.io/badge/⭐_GITHUB-Follow_Quest-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shoubhik95)
-[![Email](https://img.shields.io/badge/✉️_EMAIL-Send_Message-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-[![LinkedIn](https://img.shields.io/badge/🔗_LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-link-here)
+[![LinkedIn](https://img.shields.io/badge/🔗_LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shoubhik-bhattacharya-8b4099324)
 
 </div>
 
@@ -84,13 +84,13 @@ const shoubhik = {
 ```
 
 > A game artist and technical artist who lives in the overlap of **beautiful** and **performant**.
-> ArtStation is the gallery of finished worlds. This GitHub is the engine room — the tools,
-> shaders, and pipelines that make those worlds run.
+> ArtStation is the gallery of finished worlds. itch.io is the arcade where you can actually
+> play them. This GitHub is the engine room — the tools, shaders, and pipelines underneath it all.
 
 🔭 **Current Quest:** real-time asset pipelines & shader experiments
 🌱 **Grinding XP in:** technical art tooling & engine-side optimization
 💬 **Will gladly nerd out about:** 3D art, texturing, Unreal/Unity, VFX
-📫 **Send a raven:** add your email / LinkedIn above
+📫 **Send a raven:** via [LinkedIn](https://www.linkedin.com/in/shoubhik-bhattacharya-8b4099324)
 
 ---
 
@@ -148,126 +148,75 @@ const shoubhik = {
 
 <div align="center">
 
-## 🏆 ACHIEVEMENTS UNLOCKED — Certifications
+## 🎮 ARCADE CABINET — Playable Builds
+
+**[→ Insert Coin at itch.io](https://shoubhik-bhattacharya.itch.io/)**
+*Every cabinet below is a real, playable build — not a screenshot.*
 
 </div>
 
 <table align="center" width="100%">
 <tr>
-<th>🏅</th><th>Achievement</th><th>Granted By</th><th>Unlocked</th>
-</tr>
-<tr>
-<td align="center">🔓</td>
-<td><i>e.g. Unreal Engine Fundamentals</i></td>
-<td><i>Epic Games</i></td>
-<td><i>20XX</i></td>
-</tr>
-<tr>
-<td align="center">🔓</td>
-<td><i>e.g. Substance 3D Texturing</i></td>
-<td><i>Adobe</i></td>
-<td><i>20XX</i></td>
-</tr>
-<tr>
-<td align="center">🔒</td>
-<td><i>Add your next certification here</i></td>
-<td><i>Issuer</i></td>
-<td><i>Year</i></td>
+<td align="center" width="50%">
+
+### 🕹️ itch.io Arcade
+[![itch.io](https://img.shields.io/badge/PLAY_NOW-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white)](https://shoubhik-bhattacharya.itch.io/)
+
+Full library of playable game builds — the actual shippable
+output of the pipelines & art above.
+
+</td>
+<td align="center" width="50%">
+
+### 💾 GitHub Cartridges
+Pin your favorite repos from profile settings to auto-render
+cards here. Currently in rotation:
+
+</td>
 </tr>
 </table>
 
-> 📝 *Swap in your real certs — link the cert title to the credential URL for a verified badge feel.*
-
----
-
 <div align="center">
 
-## ⚔️ QUEST LOG — Work Experience
+| 🧩 Cartridge | Type | Engine |
+|---|---|---|
+| **Minesweeper-C-** | Classic Logic Game | C++ |
+| **Codecircuit** | Dev Project | — |
+| **Our-Chhattisgarh-Tourist-Website** | Web Build | HTML |
+| **Shoubhik_Bhattacharya_Portfolio** | Portfolio Site | JavaScript |
+| **OssAudit-24BCG10095-** | OSS Tooling / Scripts | Shell |
 
 </div>
 
-<table align="center" width="100%">
-<tr>
-<td valign="top" width="6%" align="center">🟩</td>
-<td valign="top">
-
-**Game Artist** — *Studio Name* `(example)`
-`Mon 20XX → Present`
-Loot gained: production-ready 3D assets, texturing pipeline, in-engine integration.
-
-</td>
-</tr>
-<tr>
-<td valign="top" align="center">🟨</td>
-<td valign="top">
-
-**Technical Artist Intern** — *Studio Name* `(example)`
-`Mon 20XX → Mon 20XX`
-Loot gained: shader tools, asset optimization scripts, pipeline automation.
-
-</td>
-</tr>
-<tr>
-<td valign="top" align="center">⬜</td>
-<td valign="top">
-
-**Add Your Next Quest Here**
-`Mon 20XX → Mon 20XX`
-Loot gained: …
-
-</td>
-</tr>
-</table>
-
-> 📝 *Replace these placeholder quests with your real roles and outcomes.*
-
 ---
 
 <div align="center">
 
-## 🗺️ GAME LIBRARY — Projects & World Map
+## 📡 LIVE CONTRIBUTION RADAR
+
+*The grid below moves in real time — it's literally watching me code.*
 
 </div>
 
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top" align="center">
-
-### 🎨 Main Quest Hub
-**[→ Full ArtStation Portfolio](https://www.artstation.com/gamedev_shoubhik2)**
-Finished art, environments, characters & renders.
-
-</td>
-<td width="50%" valign="top" align="center">
-
-### 💻 Side Quests
-Pin your top repos (tools, shaders, jams, scripts) via
-GitHub profile settings — they'll auto-render as cards here.
-
-</td>
-</tr>
-</table>
-
-| 🎮 Project | World | Loadout | Portal |
-|---|---|---|---|
-| *Project Name* | *Environment Art* | *Blender, Substance, UE5* | *[link]* |
-| *Project Name* | *Tech Art Tool* | *Python, Unity* | *[link]* |
-| *Project Name* | *Shader / VFX* | *HLSL, Unreal* | *[link]* |
-
----
-
 <div align="center">
 
-## 📊 PLAYER STATS
+### 🐍 The Contribution Serpent
+*A snake that eats its way through every green square I've earned.*
 
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=Shoubhik95&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&icon_color=facc15&text_color=c9d1d9"/>
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shoubhik95&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&text_color=c9d1d9"/>
+![snake gif](https://raw.githubusercontent.com/Shoubhik95/Shoubhik95/output/github-snake-dark.svg)
+
+### 📈 Activity Waveform
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Shoubhik95&theme=react-dark&hide_border=true&bg_color=0D1117&color=00E5FF&line=facc15&point=ffffff&area=true&area_color=00E5FF)
+
+### 🔥 Streak Meter
 
 <img src="https://streak-stats.demolab.com?user=Shoubhik95&theme=tokyonight&hide_border=true&background=0D1117&ring=facc15&fire=00E5FF&currStreakLabel=facc15"/>
 
-### 🐍 The Contribution Serpent
+### 📊 Core Stats
 
-![snake gif](https://raw.githubusercontent.com/Shoubhik95/Shoubhik95/output/github-contribution-grid-snake.svg)
+<img height="175em" src="https://github-readme-stats.vercel.app/api?username=Shoubhik95&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&icon_color=facc15&text_color=c9d1d9"/>
+<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shoubhik95&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&text_color=c9d1d9"/>
 
 ### 🏁 Trophy Room
 
@@ -275,7 +224,7 @@ GitHub profile settings — they'll auto-render as cards here.
 
 </div>
 
-> ⚙️ **Setup note:** the contribution snake needs a one-time free GitHub Action (search **"platane/snk"**) to auto-generate that SVG daily.
+> ⚙️ **One-time setup needed for the animated snake:** add the free **`platane/snk`** GitHub Action to this repo (2-minute copy-paste, runs daily, generates `github-snake-dark.svg` automatically). Everything else above (activity waveform, streak meter, stats, trophies) works instantly with zero setup.
 
 ---
 
@@ -285,7 +234,9 @@ GitHub profile settings — they'll auto-render as cards here.
 
 **Ready to team up on something real-time and beautiful?**
 
+[![itch.io](https://img.shields.io/badge/-🕹️_PLAY_MY_GAMES-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white)](https://shoubhik-bhattacharya.itch.io/)
 [![ArtStation](https://img.shields.io/badge/-🎨_EXPLORE_THE_PORTFOLIO-13AFF0?style=for-the-badge&logo=artstation&logoColor=white)](https://www.artstation.com/gamedev_shoubhik2)
+[![LinkedIn](https://img.shields.io/badge/-🔗_CONNECT_ON_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shoubhik-bhattacharya-8b4099324)
 
 <img src="https://capsule-render.vercel.app/api?type=transparent&color=auto&height=100&section=footer&text=THANKS%20FOR%20PLAYING&fontSize=22&fontColor=00E5FF"/>
 
