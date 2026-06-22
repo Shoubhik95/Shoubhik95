@@ -190,18 +190,18 @@ Pin your favorite repos from profile settings to auto-render cards here.
 
 </div>
 
-### 📈 Activity Waveform
+### 🎮 PLAYER STATUS
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Shoubhik95&theme=react-dark&hide_border=true&bg_color=0D1117&color=00E5FF&line=facc15&point=ffffff&area=true&area_color=00E5FF)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Shoubhik95&show_icons=true&theme=transparent&hide_border=true&bg_color=0D1117&title_color=00E5FF&text_color=C9D1D9&icon_color=FACC15&border_radius=10&card_width=420&custom_title=PLAYER%20STATUS" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shoubhik95&layout=compact&theme=transparent&hide_border=true&bg_color=0D1117&title_color=00E5FF&text_color=C9D1D9&border_radius=10&card_width=320&custom_title=LOADOUT%20SYSTEM" alt="Top languages" />
+</p>
 
-### 🔥 Streak Meter
+### 🧠 QUEST LOG
 
-<img src="https://streak-stats.demolab.com?user=Shoubhik95&theme=tokyonight&hide_border=true&background=0D1117&ring=facc15&fire=00E5FF&currStreakLabel=facc15" alt="GitHub streak stats"/>
-
-### 📊 Core Stats
-
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=Shoubhik95&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&icon_color=facc15&text_color=c9d1d9" alt="GitHub stats"/>
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shoubhik95&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&text_color=c9d1d9" alt="Top languages"/>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Shoubhik95&theme=transparent&hide_border=true&background=0D1117&ring=00E5FF&fire=FACC15&currStreakLabel=00E5FF&sideLabels=C9D1D9&dates=9CA3AF" alt="Streak stats" />
+</p>
 
 ---
 
