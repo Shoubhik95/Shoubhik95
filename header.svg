@@ -1,42 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="880" height="300" viewBox="0 0 880 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300">
   <defs>
-    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00E5FF">
-        <animate attributeName="stop-color" values="#00E5FF;#00FFFF;#00E5FF" dur="3s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" style="stop-color:#00FFFF">
-        <animate attributeName="stop-color" values="#00FFFF;#00E5FF;#00FFFF" dur="3s" repeatCount="indefinite"/>
-      </stop>
+    <linearGradient id="bgGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+      <animate attributeName="stop-color" values="#0D1117;#101826;#0D1117" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
+
+    <linearGradient id="titleGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#FACC15"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;0%;100%" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+
     <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
+
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 18 -7" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode/>
+      </feMerge>
+    </filter>
+
     <style>
-      .twinkle { animation: twinkle 2s ease-in-out infinite; }
-      @keyframes twinkle { 0%, 100% { opacity: 1; } 50% { opacity: 0.6; } }
+      .float1 { animation: float1 4s ease-in-out infinite; }
+      .float2 { animation: float2 5s ease-in-out infinite; }
+      .float3 { animation: float3 6s ease-in-out infinite; }
+      .blink  { animation: blink 1.4s ease-in-out infinite; }
+      .pulse  { animation: pulse 2.2s ease-in-out infinite; }
+
+      @keyframes float1 {
+        0%,100% { transform: translateY(0px); opacity: 0.9; }
+        50% { transform: translateY(-8px); opacity: 1; }
+      }
+
+      @keyframes float2 {
+        0%,100% { transform: translateY(0px); opacity: 0.7; }
+        50% { transform: translateY(10px); opacity: 1; }
+      }
+
+      @keyframes float3 {
+        0%,100% { transform: translateY(0px) translateX(0px); opacity: 0.85; }
+        50% { transform: translateY(-6px) translateX(4px); opacity: 1; }
+      }
+
+      @keyframes blink {
+        0%,100% { opacity: 1; }
+        50% { opacity: 0.2; }
+      }
+
+      @keyframes pulse {
+        0%,100% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+      }
     </style>
   </defs>
-  <rect width="880" height="300" fill="#0D1117"/>
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161B22" stroke-width="1"/>
-  </pattern>
-  <rect width="880" height="300" fill="url(#grid)"/>
-  <circle cx="100" cy="150" r="60" fill="#161B22" opacity="0.5"/>
-  <circle cx="780" cy="150" r="60" fill="#161B22" opacity="0.5"/>
-  <text x="440" y="120" font-family="monospace" font-size="72"
-        fill="url(#neonGlow)" filter="url(#glow)" text-anchor="middle" class="twinkle">
-    SHOUBHIK
-  </text>
-  <text x="440" y="180" font-family="monospace" font-size="24"
-        fill="#FACC15" text-anchor="middle">
+
+  <rect width="880" height="300" fill="url(#bgGlow)"/>
+
+  <g opacity="0.35">
+    <path d="M0 230 C120 180, 220 280, 340 230 S560 180, 680 230 S800 280, 880 220"
+          fill="none" stroke="#00E5FF" stroke-width="2" stroke-dasharray="7 10" class="blink"/>
+    <path d="M0 245 C120 195, 220 295, 340 245 S560 195, 680 245 S800 295, 880 235"
+          fill="none" stroke="#FACC15" stroke-width="2" stroke-dasharray="10 12" class="blink"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="120" cy="70" r="10" fill="#00E5FF" class="float1"/>
+    <circle cx="760" cy="85" r="8" fill="#FACC15" class="float2"/>
+    <circle cx="220" cy="220" r="7" fill="#A855F7" class="float3"/>
+    <circle cx="650" cy="205" r="9" fill="#00E5FF" class="float1"/>
+    <circle cx="470" cy="55" r="6" fill="#FACC15" class="float2"/>
+  </g>
+
+  <g opacity="0.25">
+    <rect x="60" y="40" width="160" height="3" fill="#00E5FF"/>
+    <rect x="660" y="40" width="160" height="3" fill="#FACC15"/>
+    <rect x="60" y="257" width="160" height="3" fill="#A855F7"/>
+    <rect x="660" y="257" width="160" height="3" fill="#00E5FF"/>
+  </g>
+
+  <g filter="url(#strongGlow)">
+    <text x="440" y="115" text-anchor="middle"
+          font-family="monospace" font-size="64" font-weight="700"
+          fill="url(#titleGlow)" class="pulse">
+      SHOUBHIK
+    </text>
+  </g>
+
+  <text x="440" y="168" text-anchor="middle"
+        font-family="monospace" font-size="22"
+        fill="#FACC15" class="blink">
     ⚔️ GAME ARTIST · TECHNICAL ARTIST ⚔️
   </text>
-  <rect x="400" y="240" width="10" height="10" fill="#00E5FF" class="twinkle"/>
-  <rect x="420" y="250" width="10" height="10" fill="#00E5FF" class="twinkle"/>
-  <rect x="440" y="240" width="10" height="10" fill="#00E5FF" class="twinkle"/>
-  <rect x="460" y="250" width="10" height="10" fill="#00E5FF" class="twinkle"/>
-  <rect x="480" y="240" width="10" height="10" fill="#00E5FF" class="twinkle"/>
+
+  <text x="440" y="205" text-anchor="middle"
+        font-family="monospace" font-size="14"
+        fill="#9CA3AF">
+    REAL-TIME RENDERING • SHADERS • VFX • PLAYABLE WORLDS
+  </text>
+
+  <g filter="url(#glow)">
+    <rect x="300" y="235" width="280" height="18" rx="9" fill="#111827" stroke="#00E5FF" stroke-width="1.5"/>
+    <rect x="300" y="235" width="165" height="18" rx="9" fill="#00E5FF">
+      <animate attributeName="width" values="80;210;120;165;80" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="440" y="248" text-anchor="middle"
+          font-family="monospace" font-size="11"
+          fill="#FFFFFF">
+      LOADING CHARACTER SHEET...
+    </text>
+  </g>
 </svg>
