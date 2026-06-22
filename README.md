@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shoubhik95/Shoubhik95/main/header.svg" alt="SHOUBHIK95 — Game Artist & Technical Artist" width="880" />
+<img src="https://github.com/Shoubhik95/Shoubhik95/blob/main/header.svg" alt="SHOUBHIK95 — Game Artist & Technical Artist" width="880" />
 
 <br>
 
