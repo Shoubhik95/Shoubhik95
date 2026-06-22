@@ -2,9 +2,9 @@
 
 # 🎮 Shoubhik Bhattacharya
 
-### Game Artist • Technical Artist • Game Developer
+### Game Artist • Technical Artist • Environment Artist
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&pause=1000&color=8A2BE2&center=true&vCenter=true&width=900&lines=Game+Artist;Technical+Artist;Environment+Designer;Cinematic+Artist;VR+Developer;Unreal+Engine+Developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&pause=1000&color=8A2BE2&center=true&vCenter=true&width=900&lines=Game+Artist;Technical+Artist;Environment+Artist;Cinematic+Artist;VR+Developer;Unreal+Engine+Developer)](https://git.io/typing-svg)
 
 </div>
 
@@ -18,19 +18,19 @@
 
 ### 🎮 Creating immersive worlds where Art meets Technology
 
-I'm a passionate **Game Artist** and **Technical Artist** pursuing **B.Tech CSE (Gaming Technology)** at **VIT Bhopal University**.
+Passionate Game Artist and Technical Artist pursuing B.Tech CSE (Gaming Technology) at VIT Bhopal University.
 
-I specialize in designing environments, cinematics, real-time experiences, and technical workflows using Unreal Engine and Blender.
+I specialize in creating immersive environments, technical art workflows, cinematics, VR experiences, and stylized assets using Unreal Engine and Blender.
 
 ### 🚀 Current Focus
 
-🌿 Environment Design
+🌿 Environment Art
 
-⚙️ Technical Art Pipelines
+⚙️ Technical Art
 
 🎬 Real-Time Cinematics
 
-🕶️ VR Experiences
+🕶️ VR Development
 
 🎮 Unreal Engine 5
 
@@ -54,12 +54,13 @@ Engine:
 
 Tools:
   Blender
-  ZBrush
+  GitHub
+  VS Code
 
 Learning:
   Rigging
+  PCG
   Shaders
-  PCG Systems
 
 Status:
   Building Games
@@ -69,28 +70,24 @@ Status:
 </tr>
 </table>
 
-<br>
-
 # 🎯 Professional Roles
 
 | 🎨 Game Artist | ⚙️ Technical Artist |
 |:---:|:---:|
 | Asset Creation | Art + Programming |
-| Character Design | Pipeline Development |
-| Environment Design | Tool Development |
+| Character Design | Tool Development |
+| Environment Design | Pipeline Development |
 
 | 🌿 Environment Artist | 🎬 Cinematic Artist |
 |:---:|:---:|
-| Landscapes | Sequencer |
-| Lighting | Storytelling |
-| Foliage | Camera Work |
+| Landscapes | Storytelling |
+| Lighting | Camera Work |
+| Foliage | Sequencer |
 
-| 🎮 Game Developer | 🕶️ VR Developer |
+| 🎮 Unreal Developer | 🕶️ VR Developer |
 |:---:|:---:|
-| Gameplay Systems | Interactive Worlds |
-| Level Design | Immersive Experiences |
-
-<br>
+| Gameplay Systems | Immersive Worlds |
+| Level Design | Interactive Experiences |
 
 # ⚡ Tech Stack
 
@@ -110,11 +107,11 @@ Status:
 
 <br><br>
 
-<img src="https://img.shields.io/badge/ZBrush-CC0000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ZBrush-red?style=for-the-badge"/>
 
-<img src="https://img.shields.io/badge/Substance_Painter-FF6B00?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Substance_Painter-orange?style=for-the-badge"/>
 
-<img src="https://img.shields.io/badge/Photoshop-001E36?style=for-the-badge&logo=adobephotoshop"/>
+<img src="https://img.shields.io/badge/Photoshop-blue?style=for-the-badge&logo=adobephotoshop"/>
 
 <br><br>
 
@@ -130,7 +127,7 @@ Status:
 
 <img src="https://img.shields.io/badge/Materials_&_Shaders-blue?style=for-the-badge"/>
 
-<img src="https://img.shields.io/badge/Foliage_Systems-green?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Lighting-green?style=for-the-badge"/>
 
 <img src="https://img.shields.io/badge/Sequencer-red?style=for-the-badge"/>
 
@@ -138,35 +135,23 @@ Status:
 
 <img src="https://img.shields.io/badge/Optimization-orange?style=for-the-badge"/>
 
-<br><br>
-
-## 🛠️ Tools
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
-
 </div>
-
-<br>
 
 # 🏆 Certifications
 
-| Certification | Category |
-|--------------|----------|
-| Unreal Engine Fundamentals | Unreal Engine |
-| Environment Design | Unreal Engine |
-| Cinematics & Sequencer | Unreal Engine |
-| Blender Character Creation | Blender |
-| Game Design Fundamentals | Game Development |
-| VR Development | XR Development |
-| Procedural Content Generation | Technical Art |
-
-<br>
+- Unreal Engine Fundamentals
+- Environment Design in Unreal Engine
+- Cinematics & Sequencer
+- Blender Character Creation
+- VR Development
+- Game Design Fundamentals
+- Procedural Content Generation (PCG)
 
 # 🚀 Achievements
 
 🏆 Developed VIT Bhopal Campus VR Tour
 
-🌿 Created Procedural Forest using UE5 PCG Framework
+🌿 Created Procedural Forest using UE5 PCG
 
 🎨 Designed Stylized Characters in Blender
 
@@ -178,64 +163,50 @@ Status:
 
 🏅 Participated in Technical Events & Hackathons
 
-🚀 Exploring Advanced Technical Art Workflows
-
-<br>
-
 # 💼 Experience
 
 ### 📢 Co-Lead — Social Media Team
 
-**Metaversity Club • VIT Bhopal**
+**Metaversity Club | VIT Bhopal**
 
-- Managed social media content
-- Created event promotions
+- Managed social media campaigns
+- Created promotional content
 - Collaborated with technical teams
-- Contributed to hackathon branding
+- Supported hackathons and events
 
-<br>
-
-# 📊 GitHub Statistics
+# 📊 GitHub Stats
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Shoubhik95&show_icons=true&theme=tokyonight"/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shoubhik95&layout=compact&theme=tokyonight"/>
 
 </div>
-
-<br>
 
 # 🔥 Contribution Streak
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Shoubhik95&theme=tokyonight"/>
 
 </div>
 
-<br>
-
-# 📈 Contribution Graph
+# 📈 Activity Graph
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shoubhik95&theme=tokyo-night"/>
 
 </div>
-
-<br>
 
 # 🏅 GitHub Trophies
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&column=4&row=2"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Shoubhik95&theme=tokyonight&column=4"/>
 
 </div>
-
-<br>
 
 # 🌐 Connect With Me
 
@@ -245,16 +216,12 @@ Status:
 <img src="https://img.shields.io/badge/ArtStation-13AFF0?style=for-the-badge&logo=artstation"/>
 </a>
 
-<a href="YOUR_LINKEDIN">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
-</a>
-
-<a href="https://github.com/YOUR_USERNAME">
+<a href="https://github.com/Shoubhik95">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
 </a>
 
-<a href="YOUR_PORTFOLIO">
-<img src="https://img.shields.io/badge/Portfolio-8A2BE2?style=for-the-badge"/>
+<a href="https://shoubhikbhattacharya-portfolio.netlify.app/">
+<img src="https://img.shields.io/badge/Portfolio-purple?style=for-the-badge"/>
 </a>
 
 </div>
