@@ -2,9 +2,9 @@
 
 <img src="https://raw.githubusercontent.com/Shoubhik95/Shoubhik95/main/header.svg" alt="SHOUBHIK95 — Game Artist & Technical Artist" width="880" />
 
-<br>
+<br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=2600&pause=900&color=00E5FF&center=true&vCenter=true&width=700&height=50&lines=SHOUBHIK+BHATTACHARYA+|+Game+Artist+&+Technical+Artist;Real-Time+Rendering+|+Shader+Craft+|+VFX;BUILDING+PLAYABLE+WORLDS+WITH+TECH+AND+ART" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=2600&pause=900&color=00E5FF&center=true&vCenter=true&width=700&height=50&lines=SHOUBHIK+BHATTACHARYA+%7C+Game+Artist+%26+Technical+Artist;Real-Time+Rendering+%7C+Shader+Craft+%7C+VFX;BUILDING+PLAYABLE+WORLDS+WITH+TECH+AND+ART" alt="Typing intro" />
 
 <br>
 
@@ -168,15 +168,14 @@ Full library of playable game builds — the actual shippable output of the pipe
 <td align="center" width="50%">
 
 ### 💾 GitHub Cartridges
-Pin your favorite repos from profile settings to auto-render cards here.
 
-| 🧩 Cartridge | Type | Engine |
+| Cartridge | Type | Engine |
 |---|---|---|
-| **Minesweeper-C-** | Classic Logic Game | C++ |
-| **Codecircuit** | Dev Project | HTML/CSS |
-| **Our-Chhattisgarh-Tourist-Website** | Web Build | HTML |
-| **Shoubhik_Bhattacharya_Portfolio** | Portfolio Site | JavaScript |
-| **OssAudit-24BCG10095-** | OSS Tooling / Scripts | Shell |
+| Minesweeper-C- | Classic Logic Game | C++ |
+| Codecircuit | Dev Project | HTML/CSS |
+| Our-Chhattisgarh-Tourist-Website | Web Build | HTML |
+| Shoubhik_Bhattacharya_Portfolio | Portfolio Site | JavaScript |
+| OssAudit-24BCG10095- | OSS Tooling / Scripts | Shell |
 
 </td>
 </tr>
