@@ -2,213 +2,223 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300">
 
   <defs>
-
-    <!-- Background Gradient -->
-    <linearGradient id="bgGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0D1117"/>
-      <stop offset="50%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#0D1117"/>
+    <!-- Background Gradient - Cinematic Dark -->
+    <linearGradient id="bgCinema" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0e"/>
+      <stop offset="50%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0a0a0e"/>
     </linearGradient>
 
-    <!-- Name Gradient -->
-    <linearGradient id="nameGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00E5FF"/>
-      <stop offset="50%" stop-color="#FF13F0"/>
-      <stop offset="100%" stop-color="#A855F7"/>
-
-      <animate attributeName="x1"
-        values="0%;100%;0%"
-        dur="5s"
-        repeatCount="indefinite"/>
-
-      <animate attributeName="x2"
-        values="100%;0%;100%"
-        dur="5s"
-        repeatCount="indefinite"/>
+    <!-- Gold Gradient for AAA -->
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FFA500"/>
+      <stop offset="100%" stop-color="#FFD700"/>
     </linearGradient>
 
-    <!-- Soft Glow -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+    <!-- Blue Cinematic Light -->
+    <linearGradient id="blueLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="50%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#00D4FF"/>
+    </linearGradient>
+
+    <!-- Spot Light Glow -->
+    <filter id="spotGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <!-- Strong Glow -->
-    <filter id="strongGlow">
-      <feGaussianBlur stdDeviation="10" result="blur"/>
+    <!-- Strong Gold Glow -->
+    <filter id="goldGlowFilter">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
+    <!-- Camera Lens Reflection -->
+    <filter id="lensReflection">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="880" height="300" fill="url(#bgGlow)"/>
+  <rect width="880" height="300" fill="url(#bgCinema)"/>
 
-  <!-- HUD Corner Lines -->
-  <g opacity="0.4">
-
-    <rect x="50" y="35" width="180" height="3" fill="#00E5FF"/>
-    <rect x="650" y="35" width="180" height="3" fill="#FF13F0"/>
-
-    <rect x="50" y="260" width="180" height="3" fill="#A855F7"/>
-    <rect x="650" y="260" width="180" height="3" fill="#00E5FF"/>
-
+  <!-- Cinema Stage Lines - Top and Bottom -->
+  <g opacity="0.5">
+    <line x1="50" y1="40" x2="200" y2="40" stroke="#FFD700" stroke-width="2"/>
+    <line x1="680" y1="40" x2="830" y2="40" stroke="#FFD700" stroke-width="2"/>
+    <line x1="50" y1="260" x2="200" y2="260" stroke="#00D4FF" stroke-width="2"/>
+    <line x1="680" y1="260" x2="830" y2="260" stroke="#00D4FF" stroke-width="2"/>
   </g>
 
-  <!-- Floating Particles -->
+  <!-- Animated Spot Lights - Left -->
+  <g filter="url(#spotGlow)" opacity="0.6">
+    <circle cx="80" cy="60" r="15" fill="#FFD700">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="12;18;12" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="60" r="8" fill="#FFA500">
+      <animate attributeName="opacity" values="0.6;1.0;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-  <circle cx="120" cy="70" r="6" fill="#00E5FF">
-    <animate attributeName="cy"
-      values="70;55;70"
-      dur="4s"
-      repeatCount="indefinite"/>
-  </circle>
+  <!-- Animated Spot Lights - Right -->
+  <g filter="url(#spotGlow)" opacity="0.6">
+    <circle cx="800" cy="70" r="14" fill="#00D4FF">
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="11;17;11" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="70" r="7" fill="#0066FF">
+      <animate attributeName="opacity" values="0.7;1.0;0.7" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-  <circle cx="760" cy="90" r="5" fill="#FF13F0">
-    <animate attributeName="cy"
-      values="90;105;90"
-      dur="5s"
-      repeatCount="indefinite"/>
-  </circle>
+  <!-- Film Reel - Left Side -->
+  <g transform="translate(60, 150)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#FFD700" stroke-width="3"/>
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#FFD700" stroke-width="2"/>
+    <circle cx="0" cy="0" r="5" fill="#FFD700"/>
+    
+    <!-- Film Reel Spokes - Animated Rotation -->
+    <g stroke="#FFD700" stroke-width="2">
+      <line x1="0" y1="-15" x2="0" y2="15"/>
+      <line x1="-10.6" y1="-10.6" x2="10.6" y2="10.6"/>
+      <line x1="-15" y1="0" x2="15" y2="0"/>
+      <line x1="-10.6" y1="10.6" x2="10.6" y2="-10.6"/>
+    </g>
+    
+    <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="8s" repeatCount="indefinite"/>
+  </g>
 
-  <circle cx="220" cy="220" r="5" fill="#A855F7">
-    <animate attributeName="cy"
-      values="220;205;220"
-      dur="6s"
-      repeatCount="indefinite"/>
-  </circle>
+  <!-- Film Reel - Right Side -->
+  <g transform="translate(820, 150)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#00D4FF" stroke-width="3"/>
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#00D4FF" stroke-width="2"/>
+    <circle cx="0" cy="0" r="5" fill="#00D4FF"/>
+    
+    <!-- Film Reel Spokes - Animated Rotation -->
+    <g stroke="#00D4FF" stroke-width="2">
+      <line x1="0" y1="-15" x2="0" y2="15"/>
+      <line x1="-10.6" y1="-10.6" x2="10.6" y2="10.6"/>
+      <line x1="-15" y1="0" x2="15" y2="0"/>
+      <line x1="-10.6" y1="10.6" x2="10.6" y2="-10.6"/>
+    </g>
+    
+    <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="8s" repeatCount="indefinite"/>
+  </g>
 
-  <circle cx="660" cy="210" r="6" fill="#00E5FF">
-    <animate attributeName="cy"
-      values="210;195;210"
-      dur="4.5s"
-      repeatCount="indefinite"/>
-  </circle>
+  <!-- Camera Lens Icon - Center Bottom -->
+  <g transform="translate(440, 230)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#FFD700" stroke-width="4"/>
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#00D4FF" stroke-width="3"/>
+    <circle cx="0" cy="0" r="12" fill="#0a0a0e" stroke="#FFA500" stroke-width="2"/>
+    
+    <!-- Lens Reflection - Animated -->
+    <circle cx="5" cy="-5" r="4" fill="#00D4FF" opacity="0.8">
+      <animate attributeName="opacity" values="0.3;1.0;0.3" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Lens Ring - Animated Rotation -->
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#FFD700" stroke-width="1.5" stroke-dasharray="5,5">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="10s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-  <!-- Decorative Wave -->
+  <!-- Recording Indicator - Top Right -->
+  <g transform="translate(780, 30)">
+    <circle cx="0" cy="0" r="8" fill="#FF0000">
+      <animate attributeName="opacity" values="0.5;1.0;0.5" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <text x="12" y="3" font-family="Arial, sans-serif" font-size="10" fill="#FF0000" font-weight="bold">REC</text>
+  </g>
 
-  <path
-    d="M0 230 C120 180, 220 280, 340 230 S560 180, 680 230 S800 280, 880 220"
-    fill="none"
-    stroke="#00E5FF"
-    stroke-width="2"
-    stroke-dasharray="8 10"
-    opacity="0.3">
+  <!-- Floating Particles - Film Dust -->
+  <g opacity="0.4">
+    <circle cx="150" cy="80" r="3" fill="#FFD700">
+      <animate attributeName="cy" values="80;65;80" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="100" r="2.5" fill="#00D4FF">
+      <animate attributeName="cy" values="100;115;100" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="200" r="3" fill="#FFA500">
+      <animate attributeName="cy" values="200;185;200" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="680" cy="190" r="2.5" fill="#0066FF">
+      <animate attributeName="cy" values="190;205;190" dur="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="120" r="2" fill="#FFD700">
+      <animate attributeName="cy" values="120;105;120" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="580" cy="140" r="2" fill="#00D4FF">
+      <animate attributeName="cy" values="140;155;140" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-    <animate attributeName="stroke-dashoffset"
-      values="0;100"
-      dur="8s"
-      repeatCount="indefinite"/>
+  <!-- Cinematic Light Beams - Background -->
+  <g opacity="0.15">
+    <path d="M0 0 L200 300" stroke="#FFD700" stroke-width="60"/>
+    <path d="M880 0 L680 300" stroke="#00D4FF" stroke-width="60"/>
+  </g>
 
-  </path>
+  <!-- Decorative Film Strip - Bottom -->
+  <g transform="translate(0, 270)">
+    <rect x="0" y="0" width="880" height="6" fill="none" stroke="#FFD700" stroke-width="1" stroke-dasharray="15,10">
+      <animate attributeName="stroke-dashoffset" values="0;25" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
-  <!-- Glow Layer -->
+  <!-- Glowing Border Effect -->
+  <rect x="25" y="25" width="830" height="250" fill="none" stroke="#FFD700" stroke-width="1" opacity="0.3"/>
+  <rect x="30" y="30" width="820" height="240" fill="none" stroke="#00D4FF" stroke-width="1" opacity="0.2"/>
 
-  <text
-    x="440"
-    y="105"
-    text-anchor="middle"
-    font-family="Orbitron, Arial, sans-serif"
-    font-size="64"
-    font-weight="900"
-    fill="#00E5FF"
-    opacity="0.25"
-    filter="url(#strongGlow)">
-    SHOUBHIK
+  <!-- AAA Studios Text - Background Glow -->
+  <text x="440" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#FFD700" opacity="0.15" filter="url(#goldGlowFilter)">
+    AAA
   </text>
 
-  <!-- Main Name -->
-
-  <text
-    x="440"
-    y="105"
-    text-anchor="middle"
-    font-family="Orbitron, Arial, sans-serif"
-    font-size="64"
-    font-weight="900"
-    fill="url(#nameGlow)">
-    SHOUBHIK
+  <!-- Main Title -->
+  <text x="440" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="url(#goldGlow)">
+    AAA STUDIOS
   </text>
 
   <!-- Subtitle -->
-
-  <text
-    x="440"
-    y="140"
-    text-anchor="middle"
-    font-family="Rajdhani, Arial, sans-serif"
-    font-size="20"
-    letter-spacing="6"
-    fill="#FFFFFF">
-    BHATTACHARYA
+  <text x="440" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" letter-spacing="4" fill="#00D4FF">
+    FILMING & CINEMATIC PRODUCTIONS
   </text>
 
-  <!-- Role -->
-
-  <text
-    x="440"
-    y="180"
-    text-anchor="middle"
-    font-family="Orbitron, Arial, sans-serif"
-    font-size="18"
-    fill="#FACC15">
-    ⚔ GAME ARTIST • TECHNICAL ARTIST ⚔
+  <!-- Tagline -->
+  <text x="440" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" opacity="0.9">
+    Capturing Excellence in Every Frame
   </text>
 
-  <!-- Skills -->
-
-  <text
-    x="440"
-    y="210"
-    text-anchor="middle"
-    font-family="Rajdhani, Arial, sans-serif"
-    font-size="14"
-    fill="#9CA3AF">
-    REAL-TIME RENDERING • SHADERS • VFX • PLAYABLE WORLDS
+  <!-- Services Line -->
+  <text x="440" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#9CA3AF" letter-spacing="1">
+    CAMERA WORK • LIGHTING • EDITING • VFX • SOUND DESIGN
   </text>
 
-  <!-- Loading Bar -->
-
-  <rect
-    x="280"
-    y="240"
-    width="320"
-    height="20"
-    rx="10"
-    fill="#111827"
-    stroke="#00E5FF"
-    stroke-width="1.5"/>
-
-  <rect
-    x="280"
-    y="240"
-    width="180"
-    height="20"
-    rx="10"
-    fill="#00E5FF">
-
-    <animate
-      attributeName="width"
-      values="60;250;140;220;180"
-      dur="5s"
-      repeatCount="indefinite"/>
-
+  <!-- Progress Bar - Recording Status -->
+  <rect x="280" y="245" width="320" height="18" rx="9" fill="#0a0a0e" stroke="#FFD700" stroke-width="1.5"/>
+  <rect x="280" y="245" width="160" height="18" rx="9" fill="#FFD700">
+    <animate attributeName="width" values="80;280;140;240;160" dur="6s" repeatCount="indefinite"/>
   </rect>
-
-  <text
-    x="440"
-    y="254"
-    text-anchor="middle"
-    font-family="Orbitron, Arial, sans-serif"
-    font-size="10"
-    fill="#FFFFFF">
-    LOADING CHARACTER SHEET...
+  <text x="440" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">
+    RECORDING STATUS • PRODUCTION ACTIVE
   </text>
 
 </svg>
