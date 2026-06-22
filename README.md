@@ -136,11 +136,12 @@ const shoubhik = {
 
 **Skill Tree Progress**
 
-`3D Modeling`        ████████████████████ 95%
-`Texturing`          ███████████████████░ 92%
-`Shader / Tech Art`  █████████████████░░░ 85%
-`VFX`                ████████████████░░░░ 80%
-`Pipeline Tools`     ███████████████░░░░░ 78%
+`3D Modeling`        ████████████████████ 70%
+`Cinematics And Sequencer`     ███████████████░░░░░ 85%
+`Texturing`          ███████████████████░ 65%
+`Shader / Tech Art`  █████████████████░░░ 70%
+`Unity 6`                ████████████████░░░░ 79%
+`Unreal engine 5`     ███████████████░░░░░ 78%
 
 </div>
 
@@ -181,7 +182,7 @@ cards here. Currently in rotation:
 | 🧩 Cartridge | Type | Engine |
 |---|---|---|
 | **Minesweeper-C-** | Classic Logic Game | C++ |
-| **Codecircuit** | Dev Project | — |
+| **Codecircuit** | Dev Project | html , css |
 | **Our-Chhattisgarh-Tourist-Website** | Web Build | HTML |
 | **Shoubhik_Bhattacharya_Portfolio** | Portfolio Site | JavaScript |
 | **OssAudit-24BCG10095-** | OSS Tooling / Scripts | Shell |
@@ -194,17 +195,7 @@ cards here. Currently in rotation:
 
 ## 📡 LIVE CONTRIBUTION RADAR
 
-*The grid below moves in real time — it's literally watching me code.*
-
 </div>
-
-<div align="center">
-
-### 🐍 The Contribution Serpent
-*A snake that eats its way through every green square I've earned.*
-
-![snake gif](https://raw.githubusercontent.com/Shoubhik95/Shoubhik95/output/github-snake-dark.svg)
-
 ### 📈 Activity Waveform
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Shoubhik95&theme=react-dark&hide_border=true&bg_color=0D1117&color=00E5FF&line=facc15&point=ffffff&area=true&area_color=00E5FF)
@@ -217,16 +208,6 @@ cards here. Currently in rotation:
 
 <img height="175em" src="https://github-readme-stats.vercel.app/api?username=Shoubhik95&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&icon_color=facc15&text_color=c9d1d9"/>
 <img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shoubhik95&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&text_color=c9d1d9"/>
-
-### 🏁 Trophy Room
-
-<img src="https://github-profile-trophy.vercel.app/?username=Shoubhik95&theme=onedark&no-frame=true&row=1&column=7&margin-w=8"/>
-
-</div>
-
-> ⚙️ **One-time setup needed for the animated snake:** add the free **`platane/snk`** GitHub Action to this repo (2-minute copy-paste, runs daily, generates `github-snake-dark.svg` automatically). Everything else above (activity waveform, streak meter, stats, trophies) works instantly with zero setup.
-
----
 
 <div align="center">
 
