@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./header.svg" alt="SHOUBHIK95 — Game Artist & Technical Artist" width="880" />
+<img src="https://raw.githubusercontent.com/Shoubhik95/Shoubhik95/main/header.svg" alt="SHOUBHIK95 — Game Artist & Technical Artist" width="880" />
 
 <br>
 
@@ -26,7 +26,7 @@
 <tr>
 <td align="center" width="35%">
 
-<img src="./avatar.svg" alt="Shoubhik Avatar" width="220" />
+<img src="https://raw.githubusercontent.com/Shoubhik95/Shoubhik95/main/avatar.svg" alt="Shoubhik Avatar" width="220" />
 
 **`SHOUBHIK_BHATTACHARYA.exe`**  
 *Game Artist / Technical Artist*
@@ -69,7 +69,7 @@ WEAPON LOADOUT = Blender // Substance Painter // Unreal Engine // Unity
 
 </div>
 
-<img align="right" width="260" src="./lore.svg" alt="Lore animation" />
+<img align="right" width="260" src="https://raw.githubusercontent.com/Shoubhik95/Shoubhik95/main/lore.svg" alt="Lore animation" />
 
 ```js
 const shoubhik = {
@@ -215,6 +215,6 @@ Pin your favorite repos from profile settings to auto-render cards here.
 [![ArtStation](https://img.shields.io/badge/-🎨_EXPLORE_THE_PORTFOLIO-13AFF0?style=for-the-badge&logo=artstation&logoColor=white)](https://www.artstation.com/gamedev_shoubhik2)
 [![LinkedIn](https://img.shields.io/badge/-🔗_CONNECT_ON_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shoubhik-bhattacharya-8b4099324)
 
-<img src="./footer.svg" alt="Thanks for playing" width="600" />
+<img src="https://raw.githubusercontent.com/Shoubhik95/Shoubhik95/main/footer.svg" alt="Thanks for playing" width="600" />
 
 </div>
