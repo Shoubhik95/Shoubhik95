@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="880" height="300" viewBox="0 0 880 300">
+  <defs>
+    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00E5FF">
+        <animate attributeName="stop-color" values="#00E5FF;#00FFFF;#00E5FF" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#00FFFF">
+        <animate attributeName="stop-color" values="#00FFFF;#00E5FF;#00FFFF" dur="3s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .twinkle { animation: twinkle 2s ease-in-out infinite; }
+      @keyframes twinkle { 0%, 100% { opacity: 1; } 50% { opacity: 0.6; } }
+    </style>
+  </defs>
+  <rect width="880" height="300" fill="#0D1117"/>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161B22" stroke-width="1"/>
+  </pattern>
+  <rect width="880" height="300" fill="url(#grid)"/>
+  <circle cx="100" cy="150" r="60" fill="#161B22" opacity="0.5"/>
+  <circle cx="780" cy="150" r="60" fill="#161B22" opacity="0.5"/>
+  <text x="440" y="120" font-family="monospace" font-size="72"
+        fill="url(#neonGlow)" filter="url(#glow)" text-anchor="middle" class="twinkle">
+    SHOUBHIK
+  </text>
+  <text x="440" y="180" font-family="monospace" font-size="24"
+        fill="#FACC15" text-anchor="middle">
+    ⚔️ GAME ARTIST · TECHNICAL ARTIST ⚔️
+  </text>
+  <rect x="400" y="240" width="10" height="10" fill="#00E5FF" class="twinkle"/>
+  <rect x="420" y="250" width="10" height="10" fill="#00E5FF" class="twinkle"/>
+  <rect x="440" y="240" width="10" height="10" fill="#00E5FF" class="twinkle"/>
+  <rect x="460" y="250" width="10" height="10" fill="#00E5FF" class="twinkle"/>
+  <rect x="480" y="240" width="10" height="10" fill="#00E5FF" class="twinkle"/>
+</svg>
