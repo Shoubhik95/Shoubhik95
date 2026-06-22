@@ -1,210 +1,201 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=Shoubhik%20Bhattacharya&fontAlignY=40&desc=Game%20Artist%20|%20Technical%20Artist%20|%20Game%20Developer&descAlignY=60"/>
+# 🎮 Shoubhik Bhattacharya
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=25&duration=3000&pause=1000&color=8A2BE2&center=true&vCenter=true&width=900&lines=🎮+Game+Artist;⚙️+Technical+Artist;🌿+Environment+Designer;🎬+Cinematic+Artist;🕶️+VR+Developer;🚀+Unreal+Engine+Developer)](https://git.io/typing-svg)
+### Game Artist • Technical Artist • Game Developer
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile+Views&color=blueviolet&style=for-the-badge"/>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&pause=1000&color=8A2BE2&center=true&vCenter=true&width=900&lines=Game+Artist;Technical+Artist;Environment+Designer;Cinematic+Artist;VR+Developer;Unreal+Engine+Developer)](https://git.io/typing-svg)
 
 </div>
 
----
+<br>
 
-# 💫 About Me
+# 👨‍💻 About Me
+
+<table>
+<tr>
+<td width="65%">
+
+### 🎮 Creating immersive worlds where Art meets Technology
+
+I'm a passionate **Game Artist** and **Technical Artist** pursuing **B.Tech CSE (Gaming Technology)** at **VIT Bhopal University**.
+
+I specialize in designing environments, cinematics, real-time experiences, and technical workflows using Unreal Engine and Blender.
+
+### 🚀 Current Focus
+
+🌿 Environment Design
+
+⚙️ Technical Art Pipelines
+
+🎬 Real-Time Cinematics
+
+🕶️ VR Experiences
+
+🎮 Unreal Engine 5
+
+🎨 Stylized Character Creation
+
+</td>
+
+<td width="35%">
 
 ```yaml
-Name: Shoubhik Bhattacharya
+Name:
+  Shoubhik Bhattacharya
 
 Role:
-  - Game Artist
-  - Technical Artist
-  - Game Developer
+  Game Artist
+  Technical Artist
 
-Education:
-  - B.Tech CSE (Gaming Technology)
-  - VIT Bhopal University
+Engine:
+  Unreal Engine 5
+  Unity
 
-Specialization:
-  - Unreal Engine 5
-  - Unity
-  - Blender
-  - Environment Design
-  - Technical Art
-  - Cinematics
-  - VR Development
+Tools:
+  Blender
+  ZBrush
 
-Currently Working On:
-  - Horror Game Development
-  - Campus VR Tour
-  - Stylized Character Creation
-  - UE5 PCG Environments
+Learning:
+  Rigging
+  Shaders
+  PCG Systems
+
+Status:
+  Building Games
 ```
 
----
+</td>
+</tr>
+</table>
+
+<br>
 
 # 🎯 Professional Roles
 
-| Role | Focus Area |
-|--------|------------|
-| 🎨 Game Artist | Assets, Characters, Environments |
-| ⚙️ Technical Artist | Art + Programming Workflow |
-| 🌿 Environment Artist | Landscapes, Foliage, Lighting |
-| 🎬 Cinematic Artist | Sequencer & Storytelling |
-| 🎮 Game Developer | Gameplay Systems |
-| 🕶️ VR Developer | Immersive Experiences |
+| 🎨 Game Artist | ⚙️ Technical Artist |
+|:---:|:---:|
+| Asset Creation | Art + Programming |
+| Character Design | Pipeline Development |
+| Environment Design | Tool Development |
 
----
+| 🌿 Environment Artist | 🎬 Cinematic Artist |
+|:---:|:---:|
+| Landscapes | Sequencer |
+| Lighting | Storytelling |
+| Foliage | Camera Work |
 
-# ⚡ Skills & Tech Stack
+| 🎮 Game Developer | 🕶️ VR Developer |
+|:---:|:---:|
+| Gameplay Systems | Interactive Worlds |
+| Level Design | Immersive Experiences |
+
+<br>
+
+# ⚡ Tech Stack
+
+<div align="center">
 
 ## 🎮 Game Engines
 
-<p align="center">
+<img src="https://img.shields.io/badge/Unreal_Engine-black?style=for-the-badge&logo=unrealengine"/>
 
-<img src="https://img.shields.io/badge/Unreal_Engine-000000?style=for-the-badge&logo=unrealengine"/>
+<img src="https://img.shields.io/badge/Unity-black?style=for-the-badge&logo=unity"/>
 
-<img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity"/>
-
-</p>
-
----
+<br><br>
 
 ## 🎨 Art & Design
 
-<p align="center">
-
 <img src="https://skillicons.dev/icons?i=blender"/>
 
-</p>
+<br><br>
 
-- Blender
-- Substance Painter
-- ZBrush
-- Character Modeling
-- Environment Design
-- Lighting
-- Material Creation
-- Cinematic Design
+<img src="https://img.shields.io/badge/ZBrush-CC0000?style=for-the-badge"/>
 
----
+<img src="https://img.shields.io/badge/Substance_Painter-FF6B00?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Photoshop-001E36?style=for-the-badge&logo=adobephotoshop"/>
+
+<br><br>
 
 ## 💻 Programming
 
-<p align="center">
+<img src="https://skillicons.dev/icons?i=cpp,cs,python"/>
 
-<img src="https://skillicons.dev/icons?i=cpp,cs,python,git,github,vscode"/>
+<br><br>
 
-</p>
+## ⚙️ Technical Art
 
----
+<img src="https://img.shields.io/badge/PCG_Framework-purple?style=for-the-badge"/>
 
-## 🧠 Technical Skills
+<img src="https://img.shields.io/badge/Materials_&_Shaders-blue?style=for-the-badge"/>
 
-```text
-✔ PCG Framework
-✔ Material Creation
-✔ Shader Basics
-✔ Level Design
-✔ Animation Integration
-✔ Technical Art Pipeline
-✔ VR Development
-✔ Optimization
-✔ Cinematic Sequencing
-```
+<img src="https://img.shields.io/badge/Foliage_Systems-green?style=for-the-badge"/>
 
----
+<img src="https://img.shields.io/badge/Sequencer-red?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/VR_Development-black?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Optimization-orange?style=for-the-badge"/>
+
+<br><br>
+
+## 🛠️ Tools
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
+
+</div>
+
+<br>
 
 # 🏆 Certifications
 
-### Unreal Engine
+| Certification | Category |
+|--------------|----------|
+| Unreal Engine Fundamentals | Unreal Engine |
+| Environment Design | Unreal Engine |
+| Cinematics & Sequencer | Unreal Engine |
+| Blender Character Creation | Blender |
+| Game Design Fundamentals | Game Development |
+| VR Development | XR Development |
+| Procedural Content Generation | Technical Art |
 
-- Unreal Engine Fundamentals
-- Unreal Engine Environment Design
-- Unreal Engine Cinematics
-
-### Blender
-
-- Character Creation
-- Stylized Modeling
-- Asset Creation
-
-### Game Development
-
-- Game Design Fundamentals
-- VR Development
-- Technical Art Basics
-
----
+<br>
 
 # 🚀 Achievements
 
 🏆 Developed VIT Bhopal Campus VR Tour
 
-🌿 Created Procedural Forest using Unreal Engine 5 PCG
+🌿 Created Procedural Forest using UE5 PCG Framework
 
 🎨 Designed Stylized Characters in Blender
 
-🎬 Produced Real-Time Cinematics in Unreal Engine
+🎬 Produced Real-Time Cinematics
 
-🎮 Developed Multiple Game Prototypes
+🎮 Built Multiple Game Prototypes
 
 📢 Co-Lead Social Media Team @ Metaversity Club
 
-🏅 Participated in Hackathons & Technical Events
+🏅 Participated in Technical Events & Hackathons
 
----
+🚀 Exploring Advanced Technical Art Workflows
 
-# 🎮 Featured Projects
+<br>
 
-## 🌿 Unreal Engine PCG Forest
+# 💼 Experience
 
-Procedural ecosystem generation using Unreal Engine 5 PCG Framework.
+### 📢 Co-Lead — Social Media Team
 
-### Technologies
+**Metaversity Club • VIT Bhopal**
 
-```text
-UE5 • PCG • Landscape • Materials • Foliage
-```
+- Managed social media content
+- Created event promotions
+- Collaborated with technical teams
+- Contributed to hackathon branding
 
----
+<br>
 
-## 🏫 Campus VR Tour
-
-Interactive VR experience showcasing campus architecture and navigation.
-
-### Technologies
-
-```text
-UE5 • VR • Cinematics • UI
-```
-
----
-
-## 👻 Horror Game Project
-
-Story-driven horror game featuring immersive storytelling and exploration.
-
-### Technologies
-
-```text
-UE5 • Blueprint • Lighting • Environment Design
-```
-
----
-
-## 🎨 Stylized Character Project
-
-Complete workflow from modeling to rendering.
-
-### Technologies
-
-```text
-Blender • Sculpting • Materials • Rendering
-```
-
----
-
-# 📈 GitHub Dashboard
+# 📊 GitHub Statistics
 
 <div align="center">
 
@@ -214,7 +205,7 @@ Blender • Sculpting • Materials • Rendering
 
 </div>
 
----
+<br>
 
 # 🔥 Contribution Streak
 
@@ -224,7 +215,17 @@ Blender • Sculpting • Materials • Rendering
 
 </div>
 
----
+<br>
+
+# 📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night"/>
+
+</div>
+
+<br>
 
 # 🏅 GitHub Trophies
 
@@ -234,31 +235,15 @@ Blender • Sculpting • Materials • Rendering
 
 </div>
 
----
-
-# 📊 Activity Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night"/>
-
-</div>
-
----
-
-# 🐍 Contribution Snake
-
-<div align="center">
-
-![Snake animation](https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake.svg)
-
-</div>
-
----
+<br>
 
 # 🌐 Connect With Me
 
 <div align="center">
+
+<a href="https://www.artstation.com/gamedev_shoubhik2">
+<img src="https://img.shields.io/badge/ArtStation-13AFF0?style=for-the-badge&logo=artstation"/>
+</a>
 
 <a href="YOUR_LINKEDIN">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
@@ -274,29 +259,14 @@ Blender • Sculpting • Materials • Rendering
 
 </div>
 
----
-
-# 🎯 Career Goal
-
-```text
-Creating immersive game worlds where Art meets Technology.
-
-Focused on:
-• Technical Art
-• Environment Design
-• Unreal Engine Development
-• Real-Time Cinematics
-• Interactive Experiences
-```
-
----
+<br>
 
 <div align="center">
 
-## 🚀 "Transforming imagination into playable worlds."
+## 🎮 Art + Code = Interactive Experiences
+
+### "Transforming imagination into playable worlds."
 
 ⭐ Thanks for visiting my profile!
 
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&color=gradient"/>
