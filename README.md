@@ -1,6 +1,7 @@
+
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Shoubhik Bhattacharya banner"/>
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=auto&height=300&section=header&text=SHOUBHIK&fontSize=90&fontColor=00E5FF&animation=twinkling&fontAlignY=35&desc=%E2%9A%94%EF%B8%8F%20GAME%20ARTIST%20%C2%B7%20TECHNICAL%20ARTIST%20%E2%9A%94%EF%B8%8F&descAlignY=55&descSize=22&descColor=facc15"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=700&height=50&lines=INSERT+COIN+TO+CONTINUE...;LOADING+CHARACTER+SHEET...;%E2%9D%A4%EF%B8%8F+%E2%9D%A4%EF%B8%8F+%E2%9D%A4%EF%B8%8F+%E2%9D%A4%EF%B8%8F+%E2%9D%A4%EF%B8%8F" />
 
@@ -106,7 +107,7 @@ const shoubhik = {
 
 **🎨 ART SLOT**
 
-<img src="./art-icons-animated.svg" width="100%"/>
+<img src="https://skillicons.dev/icons?i=blender,unity,unrealengine,photoshop,illustrator&theme=dark"/>
 
 `Substance Painter` `Substance Designer`
 
@@ -115,7 +116,7 @@ const shoubhik = {
 
 **⚙️ TECH ART SLOT**
 
-<img src="./techart-icons-animated.svg" width="100%"/>
+<img src="https://skillicons.dev/icons?i=cpp,cs,python,javascript,git&theme=dark"/>
 
 `Shader Graph / HLSL` `Blueprints` `Pipeline Scripting`
 
@@ -124,7 +125,7 @@ const shoubhik = {
 
 **🛡️ ENGINE SLOT**
 
-<img src="./engine-icons-animated.svg" width="100%"/>
+<img src="https://skillicons.dev/icons?i=unity,unrealengine,blender,vscode,github&theme=dark"/>
 
 `Real-Time Rendering` `Asset Optimization`
 
@@ -136,12 +137,12 @@ const shoubhik = {
 
 **Skill Tree Progress**
 
-`3D Modeling`               ██████████████░░░░░░ 70%
-`Cinematics And Sequencer`  █████████████████░░░ 85%
-`Texturing`                 █████████████░░░░░░░ 65%
-`Shader / Tech Art`         ██████████████░░░░░░ 70%
-`Unity 6`                   ████████████████░░░░ 79%
-`Unreal Engine 5`           ███████████████░░░░░ 78%
+`3D Modeling`        ████████████████████ 70%
+`Cinematics And Sequencer`     ███████████████░░░░░ 85%
+`Texturing`          ███████████████████░ 65%
+`Shader / Tech Art`  █████████████████░░░ 70%
+`Unity 6`                ████████████████░░░░ 79%
+`Unreal engine 5`     ███████████████░░░░░ 78%
 
 </div>
 
@@ -182,7 +183,7 @@ cards here. Currently in rotation:
 | 🧩 Cartridge | Type | Engine |
 |---|---|---|
 | **Minesweeper-C-** | Classic Logic Game | C++ |
-| **Codecircuit** | Dev Project | HTML, CSS |
+| **Codecircuit** | Dev Project | html , css |
 | **Our-Chhattisgarh-Tourist-Website** | Web Build | HTML |
 | **Shoubhik_Bhattacharya_Portfolio** | Portfolio Site | JavaScript |
 | **OssAudit-24BCG10095-** | OSS Tooling / Scripts | Shell |
@@ -195,6 +196,7 @@ cards here. Currently in rotation:
 
 ## 📡 LIVE CONTRIBUTION RADAR
 
+</div>
 ### 📈 Activity Waveform
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Shoubhik95&theme=react-dark&hide_border=true&bg_color=0D1117&color=00E5FF&line=facc15&point=ffffff&area=true&area_color=00E5FF)
@@ -207,10 +209,6 @@ cards here. Currently in rotation:
 
 <img height="175em" src="https://github-readme-stats.vercel.app/api?username=Shoubhik95&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&icon_color=facc15&text_color=c9d1d9"/>
 <img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shoubhik95&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&text_color=c9d1d9"/>
-
-</div>
-
----
 
 <div align="center">
 
