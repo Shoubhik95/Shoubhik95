@@ -30,16 +30,16 @@
 
 NAME       : Shoubhik Bhattacharya
 CLASS      : Game Artist / Technical Artist
-SPECIALTY  : Animations · Shaders · 3D Modelling · Playable Worlds . Environment Design 
-FOCUS      : Immersive AR / VR experiences , New World Exploration
+SPECIALTY  : Animations · Shaders · 3D Modelling · Playable Worlds · Environment Design
+FOCUS      : Immersive AR / VR experiences, New World Exploration
 STATUS     : Actively building, always learning
-LOCATION   : [Bhopal, Madhya Pradesh ]
+LOCATION   : Bhopal, Madhya Pradesh
 ```
 
 <a href="#"><img src="https://img.shields.io/badge/★_ACTIVATE-2DE2E6?style=for-the-badge&labelColor=06060F" /></a>
 <a href="#"><img src="https://img.shields.io/badge/+_ADD_TEAMMATE-9B5CFF?style=for-the-badge&labelColor=06060F" /></a>
 <a href="#-the-lore"><img src="https://img.shields.io/badge/✎_LORE-FF4FD8?style=for-the-badge&labelColor=06060F" /></a>
-<a href="mailto:youremail@example.com"><img src="https://img.shields.io/badge/✓_FIND_QUEST-2DE2E6?style=for-the-badge&labelColor=06060F" /></a>
+<a href="mailto:shoubhikbhattacharya06@gmail.com"><img src="https://img.shields.io/badge/✓_FIND_QUEST-2DE2E6?style=for-the-badge&labelColor=06060F" /></a>
 
 </td>
 </tr>
@@ -61,9 +61,9 @@ LOCATION   : [Bhopal, Madhya Pradesh ]
  * sure the game looks as good as it runs.
  */
 
-const currentQuest   = "Diving deeper into real-time AR/VR rendering pipelines , Create my own world";
+const currentQuest   = "Diving deeper into real-time AR/VR rendering pipelines, creating my own world";
 const wieldsOnSide    = ["GPU", "Keyboard + Mouse", "the occasional VR headset"];
-const guildChannel    = "#vfx(Animation)-and-tech-art";
+const guildChannel    = "#vfx(animation)-and-tech-art";
 const sendAMessage    = "shoubhikbhattacharya06@gmail.com";
 ```
 
@@ -74,15 +74,21 @@ const sendAMessage    = "shoubhikbhattacharya06@gmail.com";
 <table>
 <tr><td><b>ART KIT</b></td></tr>
 <tr><td>
-<img src="https://skillicons.dev/icons?i=blender,photoshop,figma,ae" />
+<img src="https://skillicons.dev/icons?i=blender,figma" />
+<img src="https://img.shields.io/badge/Animation-06060F?style=for-the-badge&color=9B5CFF" />
+<img src="https://img.shields.io/badge/Canva-06060F?style=for-the-badge&logo=canva&logoColor=2DE2E6" />
 </td></tr>
 <tr><td><b>TECH ARSENAL</b></td></tr>
 <tr><td>
-<img src="https://skillicons.dev/icons?i=unity,unrealengine,cpp,csharp,python,opengl" />
+<img src="https://skillicons.dev/icons?i=unity,unrealengine,cpp,cs,python" />
+<img src="https://img.shields.io/badge/Blueprints-06060F?style=for-the-badge&logo=unrealengine&logoColor=FF4FD8" />
 </td></tr>
 <tr><td><b>GAMEDEV KIT</b></td></tr>
 <tr><td>
-<img src="https://skillicons.dev/icons?i=git,github,visualstudio,vscode,html,js" />
+<img src="https://skillicons.dev/icons?i=blender,unity,unrealengine" />
+<img src="https://img.shields.io/badge/Maya-06060F?style=for-the-badge&logo=autodeskmaya&logoColor=2DE2E6" />
+<img src="https://img.shields.io/badge/Epic_Games-06060F?style=for-the-badge&logo=epicgames&logoColor=9B5CFF" />
+<img src="https://img.shields.io/badge/Fab-06060F?style=for-the-badge&color=FF4FD8" />
 </td></tr>
 </table>
 
@@ -101,8 +107,8 @@ const sendAMessage    = "shoubhikbhattacharya06@gmail.com";
 | Cartridge 🎮 | Type | Engine |
 |---|---|---|
 | [Shoubhik_Bhattacharya_Portfolio](#) | Clean Logic Showcase | Unity |
-| [Car-Chasing-Sim](#) | Web Racing Game | Webpage (HTML5 Game Dev)
-| [VR Campus tour ](#) | Pubic Project  | Unreal |
+| [Car-Chasing-Sim](#) | Web Racing Game | Webpage (HTML5 Game Dev) |
+| [VR Campus Tour](#) | Public Project | Unreal |
 
 <sub>Repo names/links above are placeholders mirroring your previous cabinet — swap `#` for the real repo URLs.</sub>
 
