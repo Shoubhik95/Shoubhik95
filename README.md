@@ -1,15 +1,14 @@
 <div align="center">
 
-<img src="./Header.svg" alt="Shoubhik Bhattacharya — Game Artist / Technical Artist" width="100%"/>
+<img src="./Header.svg" alt="Shoubhik Bhattacharya — Game Artist / Technical Artist" width="100%" />
 
-<br/>
+<br/><br/>
 
-<img src="https://img.shields.io/badge/GAMES_SHIPPED-6-2DE2E6?style=for-the-badge&labelColor=06060F" />
-<img src="https://img.shields.io/badge/GUILD_MEMBER-VFX_Artists_Collective-9B5CFF?style=for-the-badge&labelColor=06060F" />
-<img src="https://img.shields.io/badge/TREASURE_COLLECTED-17-FF4FD8?style=for-the-badge&labelColor=06060F" />
+<img src="https://img.shields.io/badge/STATUS-OPEN_TO_WORK-00E5FF?style=for-the-badge&labelColor=06060F" />
+<img src="https://img.shields.io/badge/ROLE-GAME_ARTIST_•_TECHNICAL_ARTIST-9B5CFF?style=for-the-badge&labelColor=06060F" />
+<img src="https://img.shields.io/badge/LOOKING_FOR-INTERNSHIPS_&_FREELANCE-FF4FD8?style=for-the-badge&labelColor=06060F" />
 
 </div>
-
 <br/>
 
 ## ✦ CHARACTER SELECT
@@ -35,10 +34,6 @@ FOCUS      : Immersive AR / VR experiences, New World Exploration
 STATUS     : Actively building, always learning
 LOCATION   : Bhopal, Madhya Pradesh
 ```
-
-<a href="#"><img src="https://img.shields.io/badge/★_ACTIVATE-2DE2E6?style=for-the-badge&labelColor=06060F" /></a>
-<a href="#"><img src="https://img.shields.io/badge/+_ADD_TEAMMATE-9B5CFF?style=for-the-badge&labelColor=06060F" /></a>
-<a href="#-the-lore"><img src="https://img.shields.io/badge/✎_LORE-FF4FD8?style=for-the-badge&labelColor=06060F" /></a>
 <a href="mailto:shoubhikbhattacharya06@gmail.com"><img src="https://img.shields.io/badge/✓_FIND_QUEST-2DE2E6?style=for-the-badge&labelColor=06060F" /></a>
 
 </td>
@@ -72,55 +67,126 @@ const sendAMessage    = "shoubhikbhattacharya06@gmail.com";
 ## ✦ INVENTORY — Skills & Tech Stack
 
 <table>
-<tr><td><b>ART KIT</b></td></tr>
-<tr><td>
-<img src="https://skillicons.dev/icons?i=blender,figma" />
-<img src="https://img.shields.io/badge/Animation-06060F?style=for-the-badge&color=9B5CFF" />
-<img src="https://img.shields.io/badge/Canva-06060F?style=for-the-badge&logo=canva&logoColor=2DE2E6" />
-</td></tr>
-<tr><td><b>TECH ARSENAL</b></td></tr>
-<tr><td>
-<img src="https://skillicons.dev/icons?i=unity,unrealengine,cpp,cs,python" />
-<img src="https://img.shields.io/badge/Blueprints-06060F?style=for-the-badge&logo=unrealengine&logoColor=FF4FD8" />
-</td></tr>
-<tr><td><b>GAMEDEV KIT</b></td></tr>
-<tr><td>
-<img src="https://skillicons.dev/icons?i=blender,unity,unrealengine" />
-<img src="https://img.shields.io/badge/Maya-06060F?style=for-the-badge&logo=autodeskmaya&logoColor=2DE2E6" />
-<img src="https://img.shields.io/badge/Epic_Games-06060F?style=for-the-badge&logo=epicgames&logoColor=9B5CFF" />
-<img src="https://img.shields.io/badge/Fab-06060F?style=for-the-badge&color=FF4FD8" />
-</td></tr>
-</table>
 
+<tr>
+<td><b>🎨 ART KIT</b></td>
+</tr>
+
+<tr>
+<td>
+<img src="https://skillicons.dev/icons?i=blender,figma,photoshop,aftereffects,premiere" />
+</td>
+</tr>
+
+<tr>
+<td><b>⚙️ TECH ARSENAL</b></td>
+</tr>
+
+<tr>
+<td>
+<img src="https://skillicons.dev/icons?i=unity,unrealengine,cpp,cs,python,git,github,vscode,visualstudio" />
+</td>
+</tr>
+
+<tr>
+<td><b>🎮 GAMEDEV KIT</b></td>
+</tr>
+
+<tr>
+<td>
+<img src="https://skillicons.dev/icons?i=blender,unity,unrealengine" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=maya,epicgames" />
+</td>
+</tr>
+
+</table>
 <img src="./Skillsbars_arvr.svg" width="100%" alt="skill matrix"/>
 
 <br/>
 
-## ✦ ARCADE CABINET — Playable Builds
+## ✦ ACTIVE MISSIONS
 
-<div align="center">
+<table>
+<tr>
+<th>MISSION</th>
+<th>STATUS</th>
+<th>ACTION</th>
+</tr>
 
-<a href="#"><img src="https://img.shields.io/badge/▶_HIT_THE_ARCADE-PLAY_NOW-2DE2E6?style=for-the-badge&labelColor=06060F" /></a>
+<tr>
+<td>
 
-</div>
+### 🏎️ CAR CHASING SIM
+Arcade Racing • HTML5
 
-| Cartridge 🎮 | Type | Engine |
-|---|---|---|
-| [Shoubhik_Bhattacharya_Portfolio](#) | Clean Logic Showcase | Unity |
-| [Car-Chasing-Sim](#) | Web Racing Game | Webpage (HTML5 Game Dev) |
-| [VR Campus Tour](#) | Public Project | Unreal |
+</td>
 
-<sub>Repo names/links above are placeholders mirroring your previous cabinet — swap `#` for the real repo URLs.</sub>
+<td>🟢 Complete</td>
 
-<br/>
+<td>
+
+<a href="https://github.com/Shoubhik95/Car-Game-HTML-CSS-JS">
+<img src="https://img.shields.io/badge/▶_PLAY_NOW-2DE2E6?style=for-the-badge&labelColor=06060F"/>
+
+</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+### 🌍 VR CAMPUS TOUR
+Exploration • Unreal Engine 5
+
+</td>
+
+<td>🟢 Complete</td>
+
+<td>
+
+<a href="#">
+<img src="https://img.shields.io/badge/🌍_EXPLORE-9B5CFF?style=for-the-badge&labelColor=06060F"/>
+
+</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+### 💼 PORTFOLIO
+Personal Website
+
+</td>
+
+<td>🟢 Online</td>
+
+<td>
+
+<a href="https://shoubhik-bhattacharya-portfolio.vercel.app/">
+<img src="https://img.shields.io/badge/🚀_VISIT-FF4FD8?style=for-the-badge&labelColor=06060F"/>
+
+</a>
+
+</td>
+
+</tr>
+
+</table>
 
 ## ✦ LIVE CONTRIBUTION RADAR
-
-## ✦ LIVE CONTRIBUTION RADAR
-
 <div align="center">
 
 <img src="https://streak-stats.demolab.com?user=Shoubhik95&theme=tokyonight&hide_border=true&background=06060F&ring=9B5CFF&fire=FF4FD8&currStreakLabel=2DE2E6&currStreakNum=E7ECFF&sideNums=7AA2F7&sideLabels=7AA2F7&dates=7FFFD4" width="100%" />
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shoubhik95&theme=tokyo-night&hide_border=true&bg_color=06060F&color=2DE2E6&line=9B5CFF&point=FF4FD8" width="100%">
+</p>
 
 </div>
 
@@ -137,8 +203,8 @@ const sendAMessage    = "shoubhikbhattacharya06@gmail.com";
 <br/>
 
 <a href="mailto:shoubhikbhattacharya06@gmail.com"><img src="https://img.shields.io/badge/EMAIL-06060F?style=for-the-badge&logo=gmail&logoColor=FF4FD8" /></a>
-<a href="#"><img src="https://img.shields.io/badge/LINKEDIN-06060F?style=for-the-badge&logo=linkedin&logoColor=2DE2E6" /></a>
-<a href="#"><img src="https://img.shields.io/badge/ITCH.IO-06060F?style=for-the-badge&logo=itchdotio&logoColor=9B5CFF" /></a>
+<a href="www.linkedin.com/in/shoubhik-bhattacharya-8b4099324"><img src="https://img.shields.io/badge/LINKEDIN-06060F?style=for-the-badge&logo=linkedin&logoColor=2DE2E6" /></a>
+<a href="https://shoubhik-bhattacharya.itch.io/"><img src="https://img.shields.io/badge/ITCH.IO-06060F?style=for-the-badge&logo=itchdotio&logoColor=9B5CFF" /></a>
 
 <br/><br/>
 
