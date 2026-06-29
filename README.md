@@ -116,14 +116,13 @@ const sendAMessage    = "shoubhikbhattacharya06@gmail.com";
 
 ## ✦ LIVE CONTRIBUTION RADAR
 
+## ✦ LIVE CONTRIBUTION RADAR
+
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Shoubhik95&show_icons=true&theme=tokyonight&hide_border=true&bg_color=06060F&title_color=2DE2E6&icon_color=9B5CFF&text_color=E7ECFF" width="48%" />
-<img src="https://streak-stats.demolab.com?user=Shoubhik95&theme=tokyonight&hide_border=true&background=06060F&ring=9B5CFF&fire=FF4FD8&currStreakLabel=2DE2E6" width="48%" />
+<img src="https://streak-stats.demolab.com?user=Shoubhik95&theme=tokyonight&hide_border=true&background=06060F&ring=9B5CFF&fire=FF4FD8&currStreakLabel=2DE2E6&currStreakNum=E7ECFF&sideNums=7AA2F7&sideLabels=7AA2F7&dates=7FFFD4" width="100%" />
 
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shoubhik95&layout=compact&theme=tokyonight&hide_border=true&bg_color=06060F&title_color=2DE2E6&text_color=E7ECFF" width="48%" />
+</div>
 
 </div>
 
