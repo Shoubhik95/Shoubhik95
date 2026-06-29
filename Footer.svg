@@ -1,83 +1,80 @@
-<svg viewBox="0 0 560 268" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="sBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#06060F"/>
-      <stop offset="100%" stop-color="#120B2E"/>
+    <linearGradient id="fBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120B2E"/>
+      <stop offset="55%" stop-color="#0B0A1F"/>
+      <stop offset="100%" stop-color="#06060F"/>
     </linearGradient>
-    <linearGradient id="sBar1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2DE2E6"/>
-      <stop offset="100%" stop-color="#9B5CFF"/>
+    <linearGradient id="fTitleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF4FD8"/>
+      <stop offset="55%" stop-color="#9B5CFF"/>
+      <stop offset="100%" stop-color="#2DE2E6"/>
     </linearGradient>
-    <linearGradient id="sBar2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#9B5CFF"/>
-      <stop offset="100%" stop-color="#FF4FD8"/>
-    </linearGradient>
-    <pattern id="sHex" width="28" height="24" patternUnits="userSpaceOnUse">
-      <path d="M14 0 L28 7 L28 17 L14 24 L0 17 L0 7 Z" fill="none" stroke="#2DE2E6" stroke-opacity="0.06"/>
+    <radialGradient id="fCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#9B5CFF"/>
+      <stop offset="100%" stop-color="#9B5CFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="fHex" width="34" height="30" patternUnits="userSpaceOnUse">
+      <path d="M17 0 L34 8.6 L34 21.4 L17 30 L0 21.4 L0 8.6 Z" fill="none" stroke="#2DE2E6" stroke-opacity="0.07"/>
     </pattern>
+    <filter id="fGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
-  <rect width="560" height="268" rx="10" fill="url(#sBg)"/>
-  <rect width="560" height="268" rx="10" fill="url(#sHex)"/>
-  <rect x="4" y="4" width="552" height="260" rx="8" fill="none" stroke="#2DE2E6" stroke-opacity="0.18"/>
+  <rect width="900" height="260" fill="url(#fBg)"/>
+  <rect width="900" height="260" fill="url(#fHex)"/>
+  <rect x="6" y="6" width="888" height="248" rx="6" fill="none" stroke="#2DE2E6" stroke-opacity="0.18"/>
 
-  <g stroke="#2DE2E6" stroke-width="1.6" fill="none" stroke-linecap="round">
-    <path d="M14,26 L14,12 L28,12"/>
-    <path d="M532,12 L546,12 L546,26"/>
-    <path d="M14,242 L14,256 L28,256"/>
-    <path d="M546,242 L546,256 L532,256"/>
+  <g stroke="#2DE2E6" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M18,40 L18,18 L40,18"/>
+    <path d="M860,18 L882,18 L882,40"/>
+    <path d="M18,220 L18,242 L40,242"/>
+    <path d="M882,220 L882,242 L860,242"/>
   </g>
 
-  <text x="28" y="34" font-family="'Courier New',Consolas,monospace" font-size="12" letter-spacing="3" fill="#9FB4D6">// SKILL MATRIX</text>
-  <line x1="28" y1="42" x2="532" y2="42" stroke="#2DE2E6" stroke-opacity="0.18"/>
+  <!-- closing portal, left -->
+  <g transform="translate(150,128)">
+    <circle r="70" fill="none" stroke="#2DE2E6" stroke-opacity="0.4" stroke-width="1.5">
+      <animate attributeName="r" values="70;62;70" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="86" fill="none" stroke="#FF4FD8" stroke-opacity="0.3" stroke-dasharray="3 8">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="22s" repeatCount="indefinite"/>
+    </circle>
+    <g stroke="#9B5CFF" stroke-opacity="0.45" stroke-width="1">
+      <line x1="0" y1="-58" x2="0" y2="-20"/>
+      <line x1="41" y1="-41" x2="14" y2="-14"/>
+      <line x1="58" y1="0" x2="20" y2="0"/>
+      <line x1="41" y1="41" x2="14" y2="14"/>
+      <line x1="0" y1="58" x2="0" y2="20"/>
+      <line x1="-41" y1="41" x2="-14" y2="14"/>
+      <line x1="-58" y1="0" x2="-20" y2="0"/>
+      <line x1="-41" y1="-41" x2="-14" y2="-14"/>
+    </g>
+    <circle r="16" fill="url(#fCore)" filter="url(#fGlow)">
+      <animate attributeName="opacity" values="0.9;0.4;0.9" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-  <g font-family="'Courier New',Consolas,monospace" font-size="12">
-    <!-- row 1 -->
-    <text x="28" y="64" fill="#E7ECFF">Shaders &amp; VFX</text>
-    <rect x="280" y="55" width="240" height="10" rx="5" fill="#15132A" stroke="#2DE2E6" stroke-opacity="0.2"/>
-    <rect x="280" y="55" height="10" rx="5" fill="url(#sBar1)">
-      <animate attributeName="width" values="0;228;228" dur="1.4s" fill="freeze"/>
-    </rect>
-    <text x="528" y="64" text-anchor="end" fill="#2DE2E6">95%</text>
+  <!-- text block -->
+  <g>
+    <text x="290" y="92" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="34" fill="#7D8AB0" text-decoration="line-through">GAME OVER?</text>
+    <text x="290" y="138" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="42" letter-spacing="1" fill="url(#fTitleGrad)">NAH — NEW GAME +</text>
+    <text x="290" y="168" font-family="'Courier New',Consolas,monospace" font-size="14" letter-spacing="1.5" fill="#9FB4D6">READY TO BUILD SOMETHING IMMERSIVE TOGETHER?</text>
+    <rect x="290" y="182" width="64" height="3" fill="#2DE2E6"/>
+  </g>
 
-    <!-- row 2 -->
-    <text x="28" y="96" fill="#E7ECFF">Real-Time Rendering</text>
-    <rect x="280" y="87" width="240" height="10" rx="5" fill="#15132A" stroke="#2DE2E6" stroke-opacity="0.2"/>
-    <rect x="280" y="87" height="10" rx="5" fill="url(#sBar1)">
-      <animate attributeName="width" values="0;216;216" dur="1.4s" fill="freeze"/>
-    </rect>
-    <text x="528" y="96" text-anchor="end" fill="#2DE2E6">90%</text>
+  <line x1="18" y1="206" x2="882" y2="206" stroke="#2DE2E6" stroke-opacity="0.15"/>
 
-    <!-- row 3 -->
-    <text x="28" y="128" fill="#E7ECFF">Unity (C#)</text>
-    <rect x="280" y="119" width="240" height="10" rx="5" fill="#15132A" stroke="#9B5CFF" stroke-opacity="0.2"/>
-    <rect x="280" y="119" height="10" rx="5" fill="url(#sBar1)">
-      <animate attributeName="width" values="0;211;211" dur="1.4s" fill="freeze"/>
-    </rect>
-    <text x="528" y="128" text-anchor="end" fill="#9B5CFF">88%</text>
-
-    <!-- row 4 -->
-    <text x="28" y="160" fill="#E7ECFF">Unreal Engine</text>
-    <rect x="280" y="151" width="240" height="10" rx="5" fill="#15132A" stroke="#9B5CFF" stroke-opacity="0.2"/>
-    <rect x="280" y="151" height="10" rx="5" fill="url(#sBar2)">
-      <animate attributeName="width" values="0;192;192" dur="1.4s" fill="freeze"/>
-    </rect>
-    <text x="528" y="160" text-anchor="end" fill="#FF4FD8">80%</text>
-
-    <!-- row 5 -->
-    <text x="28" y="192" fill="#E7ECFF">Tech Art Pipelines</text>
-    <rect x="280" y="183" width="240" height="10" rx="5" fill="#15132A" stroke="#2DE2E6" stroke-opacity="0.2"/>
-    <rect x="280" y="183" height="10" rx="5" fill="url(#sBar1)">
-      <animate attributeName="width" values="0;204;204" dur="1.4s" fill="freeze"/>
-    </rect>
-    <text x="528" y="192" text-anchor="end" fill="#2DE2E6">85%</text>
-
-    <!-- row 6 -->
-    <text x="28" y="224" fill="#E7ECFF">3D Tools (Blender/Maya)</text>
-    <rect x="280" y="215" width="240" height="10" rx="5" fill="#15132A" stroke="#9B5CFF" stroke-opacity="0.2"/>
-    <rect x="280" y="215" height="10" rx="5" fill="url(#sBar2)">
-      <animate attributeName="width" values="0;187;187" dur="1.4s" fill="freeze"/>
-    </rect>
-    <text x="528" y="224" text-anchor="end" fill="#9B5CFF">78%</text>
+  <g>
+    <circle cx="40" cy="226" r="4" fill="#2DE2E6"/>
+    <circle cx="56" cy="226" r="4" fill="#9B5CFF"/>
+    <circle cx="72" cy="226" r="4" fill="#FF4FD8"/>
+    <text x="450" y="230" text-anchor="middle" font-family="'Courier New',Consolas,monospace" font-size="12" letter-spacing="3" fill="#6B7AA1">THANKS FOR PLAYING</text>
+    <circle cx="828" cy="226" r="4" fill="#FF4FD8"/>
+    <circle cx="844" cy="226" r="4" fill="#9B5CFF"/>
+    <circle cx="860" cy="226" r="4" fill="#2DE2E6"/>
   </g>
 </svg>
