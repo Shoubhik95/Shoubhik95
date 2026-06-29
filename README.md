@@ -100,9 +100,6 @@ const sendAMessage    = "shoubhikbhattacharya06@gmail.com";
 </tr>
 
 </table>
-<img src="./Skillsbars_arvr.svg" width="100%" alt="skill matrix"/>
-
-<br/>
 
 ## ✦ ACTIVE MISSIONS
 
