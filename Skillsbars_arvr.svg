@@ -38,7 +38,7 @@
     <rect x="280" y="55" height="10" rx="5" fill="url(#sBar1)">
       <animate attributeName="width" values="0;228;228" dur="1.4s" fill="freeze"/>
     </rect>
-    <text x="528" y="64" text-anchor="end" fill="#2DE2E6">95%</text>
+    <text x="528" y="64" text-anchor="end" fill="#2DE2E6">55%</text>
 
     <!-- row 2 -->
     <text x="28" y="96" fill="#E7ECFF">Real-Time Rendering</text>
