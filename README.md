@@ -131,7 +131,7 @@ const sendAMessage    = "shoubhikbhattacharya06@gmail.com";
 
 <br/>
 
-<a href="mailto:youremail@example.com"><img src="https://img.shields.io/badge/EMAIL-06060F?style=for-the-badge&logo=gmail&logoColor=FF4FD8" /></a>
+<a href="mailto:shoubhikbhattacharya06@gmail.com"><img src="https://img.shields.io/badge/EMAIL-06060F?style=for-the-badge&logo=gmail&logoColor=FF4FD8" /></a>
 <a href="#"><img src="https://img.shields.io/badge/LINKEDIN-06060F?style=for-the-badge&logo=linkedin&logoColor=2DE2E6" /></a>
 <a href="#"><img src="https://img.shields.io/badge/ITCH.IO-06060F?style=for-the-badge&logo=itchdotio&logoColor=9B5CFF" /></a>
 
