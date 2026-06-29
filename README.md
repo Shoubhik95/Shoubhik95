@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./header_arvr.svg" alt="Shoubhik Bhattacharya — Game Artist / Technical Artist" width="100%"/>
+<img src="./Header.svg" alt="Shoubhik Bhattacharya — Game Artist / Technical Artist" width="100%"/>
 
 <br/>
 
@@ -17,7 +17,7 @@
 <table>
 <tr>
 <td width="240" align="center" valign="top">
-<img src="./avatar_arvr.svg" width="220" alt="avatar"/>
+<img src="./Avatar.svg" width="220" alt="avatar"/>
 <br/>
 <sub><b>LVL 8</b> · Game Artist / Technical Artist</sub>
 <br/><br/>
@@ -86,7 +86,7 @@ const sendAMessage    = "youremail@example.com";
 </td></tr>
 </table>
 
-<img src="./skillbars_arvr.svg" width="100%" alt="skill matrix"/>
+<img src="./Skillsbars_arvr.svg" width="100%" alt="skill matrix"/>
 
 <br/>
 
@@ -129,7 +129,7 @@ const sendAMessage    = "youremail@example.com";
 
 <div align="center">
 
-<img src="./footer_arvr.svg" width="100%" alt="footer"/>
+<img src="./Footer.svg" width="100%" alt="footer"/>
 
 <br/>
 
