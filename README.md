@@ -30,10 +30,10 @@
 
 NAME       : Shoubhik Bhattacharya
 CLASS      : Game Artist / Technical Artist
-SPECIALTY  : Real-Time Rendering · Shaders · VFX · Playable Worlds
-FOCUS      : Immersive AR / VR experiences
+SPECIALTY  : Animations · Shaders · 3D Modelling · Playable Worlds . Environment Design 
+FOCUS      : Immersive AR / VR experiences , New World Exploration
 STATUS     : Actively building, always learning
-LOCATION   : [REDACTED — set your city here]
+LOCATION   : [Bhopal, Madhya Pradesh ]
 ```
 
 <a href="#"><img src="https://img.shields.io/badge/★_ACTIVATE-2DE2E6?style=for-the-badge&labelColor=06060F" /></a>
@@ -61,10 +61,10 @@ LOCATION   : [REDACTED — set your city here]
  * sure the game looks as good as it runs.
  */
 
-const currentQuest   = "Diving deeper into real-time AR/VR rendering pipelines";
+const currentQuest   = "Diving deeper into real-time AR/VR rendering pipelines , Create my own world";
 const wieldsOnSide    = ["GPU", "Keyboard + Mouse", "the occasional VR headset"];
-const guildChannel    = "#vfx-and-tech-art";
-const sendAMessage    = "youremail@example.com";
+const guildChannel    = "#vfx(Animation)-and-tech-art";
+const sendAMessage    = "shoubhikbhattacharya06@gmail.com";
 ```
 
 <br/>
@@ -101,10 +101,8 @@ const sendAMessage    = "youremail@example.com";
 | Cartridge 🎮 | Type | Engine |
 |---|---|---|
 | [Shoubhik_Bhattacharya_Portfolio](#) | Clean Logic Showcase | Unity |
-| [Car-Chasing-Sim](#) | Big Vehicle Project | Unreal Engine |
-| [Car-Chasing-Sim-Tech-Artist-Reel](#) | Tech Art Breakdown Reel | Unreal Engine |
-| [Shoubhik_Bhattacharya_VFX_Tool](#) | Custom VFX Tool | Unity |
-| [Shoubhik_AGE_Adventure](#) | Game Jam Build | Unity |
+| [Car-Chasing-Sim](#) | Web Racing Game | Webpage (HTML5 Game Dev)
+| [VR Campus tour ](#) | Pubic Project  | Unreal |
 
 <sub>Repo names/links above are placeholders mirroring your previous cabinet — swap `#` for the real repo URLs.</sub>
 
