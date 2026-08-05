@@ -177,20 +177,6 @@ Personal Website
 
 </table>
 
-## ✦ LIVE CONTRIBUTION RADAR
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Shoubhik95&theme=tokyonight&hide_border=true&background=06060F&ring=9B5CFF&fire=FF4FD8&currStreakLabel=2DE2E6&currStreakNum=E7ECFF&sideNums=7AA2F7&sideLabels=7AA2F7&dates=7FFFD4" width="100%" />
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shoubhik95&theme=tokyo-night&hide_border=true&bg_color=06060F&color=2DE2E6&line=9B5CFF&point=FF4FD8" width="100%">
-</p>
-
-</div>
-
-</div>
-
-<br/>
-
 ## ✦ GAME OVER? NAH — NEW GAME +
 
 <div align="center">
