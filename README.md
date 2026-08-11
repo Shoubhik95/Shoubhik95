@@ -147,8 +147,11 @@ Bridging the gap between stunning visual fidelity and optimized codebase perform
 ## ⭐ FEATURED REPOSITORIES
 
 <div align="center">
-  <a href="https://github.com/Shoubhik95/Car-Game-HTML-CSS-JS">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shoubhik95&repo=Car-Game-HTML-CSS-JS&theme=tokyonight" />
+  <a href="https://github.com/Shoubhik95/Shoubhik_Bhattacharya_Portfolio">
+    <img src="https://github-readme-stats.vercel.app/api/pin?username=Shoubhik95&repo=Shoubhik_Bhattacharya_Portfolio&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/Shoubhik95/Astrayuga-Interactive-Official-developer-portal">
+    <img src="https://github-readme-stats.vercel.app/api/pin?username=Shoubhik95&repo=Astrayuga-Interactive-Official-developer-portal&theme=tokyonight" />
   </a>
 </div>
 
