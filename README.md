@@ -1,4 +1,4 @@
-# 📊 SHOUBHIK BHATTACHARYA | TECHNICAL ARTIST & GAME DESIGNER
+
 <div align="center">
   
   <img src="Header.svg?v=4" alt="Shoubhik Bhattacharya — Game Artist / Technical Artist" width="100%" />
@@ -118,9 +118,7 @@ Bridging the gap between stunning visual fidelity and optimized codebase perform
    * A premium, interactive design system displaying game artwork and technical breakdowns.
    * **Tech**: Figma, HTML, CSS, JavaScript, Vercel
    * [🚀 Visit Site](https://shoubhik-bhattacharya-portfolio.vercel.app/)
-4. **📦 Game Mechanics Sandbox** | *C# / C++ Scripts*
-   * Collection of reusable gameplay modules, movement controllers, and custom shader graphs.
-   * **Tech**: Unity (C#) / Unreal (C++)
+
 
 ---
 
