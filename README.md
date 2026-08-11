@@ -1,7 +1,7 @@
 
 <div align="center">
   
-  <img src="Header.svg?v=4" alt="Shoubhik Bhattacharya — Game Artist / Technical Artist" width="100%" />
+  <a href="https://shoubhik-bhattacharya-portfolio.vercel.app/"><img src="./Header.svg?v=5" alt="Shoubhik Bhattacharya — Game Artist / Technical Artist" width="100%" /></a>
 
   <br/>
 
@@ -19,7 +19,7 @@
 <table>
 <tr>
 <td width="240" align="center" valign="top">
-<img src="Avatar.svg?v=4" width="220" alt="avatar"/>
+<img src="./Avatar.svg?v=5" width="220" alt="avatar"/>
 <br/>
 <sub><b>LVL 3+</b> · Game Artist / Technical Artist</sub>
 <br/><br/>
@@ -149,7 +149,7 @@ Bridging the gap between stunning visual fidelity and optimized codebase perform
 ---
 
 <div align="center">
-  <img src="Footer.svg?v=4" width="100%" alt="footer"/>
+  <img src="./Footer.svg?v=5" width="100%" alt="footer"/>
   
   <br/>
   
