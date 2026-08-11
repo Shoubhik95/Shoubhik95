@@ -14,6 +14,36 @@
 
 ---
 
+## ✦ CHARACTER SELECT
+
+<table>
+<tr>
+<td width="240" align="center" valign="top">
+<img src="https://raw.githubusercontent.com/Shoubhik95/Shoubhik95/main/Avatar.svg?v=2" width="220" alt="avatar"/>
+<br/>
+<sub><b>LVL 3+</b> · Tech Artist & Game Designer</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/CLASS-TECHNICAL_ARTIST-FF5555?style=flat-square&labelColor=1a0c00" />
+</td>
+<td valign="top">
+
+```yaml
+> whoami
+
+NAME       : Shoubhik Bhattacharya
+CLASS      : Technical Artist & Game Designer
+EXPERIENCE : 3+ Years in Gaming Journey
+SPECIALTY  : Shaders · 3D Modelling · Optimization · Game Mechanics
+STATUS     : 🛠️ 1 Big Project (Active) & 🎮 4 Small Projects Completed
+LOCATION   : Bhopal, Madhya Pradesh, India
+```
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 🖥️ SYSTEM STATUS: ACTIVE DEVELOPMENT
 ```
 [====================== SYSTEM OVERVIEW ======================]
