@@ -1,196 +1,134 @@
+# 📊 SHOUBHIK BHATTACHARYA | TECHNICAL ARTIST & GAME DESIGNER
 <div align="center">
+  
+  <img src="./Header.svg" alt="Shoubhik Bhattacharya — Game Artist / Technical Artist" width="100%" />
 
-<img src="./Header.svg" alt="Shoubhik Bhattacharya — Game Artist / Technical Artist" width="100%" />
+  <br/>
 
-<br/><br/>
-
-<img src="https://img.shields.io/badge/STATUS-OPEN_TO_WORK-00E5FF?style=for-the-badge&labelColor=06060F" />
-<img src="https://img.shields.io/badge/ROLE-GAME_ARTIST_•_TECHNICAL_ARTIST-9B5CFF?style=for-the-badge&labelColor=06060F" />
-<img src="https://img.shields.io/badge/LOOKING_FOR-INTERNSHIPS_&_FREELANCE-FF4FD8?style=for-the-badge&labelColor=06060F" />
+  [![Portfolio](https://img.shields.io/badge/PORTFOLIO-shoubhik--bhattacharya.vercel.app-00E5FF?style=for-the-badge&logo=vercel&logoColor=white)](https://shoubhik-bhattacharya-portfolio.vercel.app/)
+  [![LinkedIn](https://img.shields.io/badge/LINKEDIN-Shoubhik_Bhattacharya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shoubhik-bhattacharya-8b4099324)
+  [![Itch.io](https://img.shields.io/badge/ITCH.IO-Shoubhik95-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white)](https://shoubhik-bhattacharya.itch.io/)
+  [![Email](https://img.shields.io/badge/EMAIL-shoubhikbhattacharya06%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shoubhikbhattacharya06@gmail.com)
 
 </div>
-<br/>
 
-## ✦ CHARACTER SELECT
+---
 
-<table>
-<tr>
-<td width="240" align="center" valign="top">
-<img src="./Avatar.svg" width="220" alt="avatar"/>
-<br/>
-<sub><b>LVL 8</b> · Game Artist / Technical Artist</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/CLASS-VFX-2DE2E6?style=flat-square&labelColor=0B0A1F" />
-</td>
-<td valign="top">
-
+## 🖥️ SYSTEM STATUS: ACTIVE DEVELOPMENT
 ```
-> whoami
-
-NAME       : Shoubhik Bhattacharya
-CLASS      : Game Artist / Technical Artist
-SPECIALTY  : Animations · Shaders · 3D Modelling · Playable Worlds · Environment Design
-FOCUS      : Immersive AR / VR experiences, New World Exploration
-STATUS     : Actively building, always learning
-LOCATION   : Bhopal, Madhya Pradesh
-```
-<a href="mailto:shoubhikbhattacharya06@gmail.com"><img src="https://img.shields.io/badge/✓_FIND_QUEST-2DE2E6?style=for-the-badge&labelColor=06060F" /></a>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-## ✦ THE LORE
-
-```js
-/**
- * Somewhere between a render pipeline and a level greybox,
- * a technical artist was born — equally happy debugging a
- * broken shader at 2am or polishing a particle system until
- * it finally feels "juicy."
- *
- * Spends real-world hours bridging the gap between artists
- * and engineers: building tools, writing shaders, and making
- * sure the game looks as good as it runs.
- */
-
-const currentQuest   = "Diving deeper into real-time AR/VR rendering pipelines, creating my own world";
-const wieldsOnSide    = ["GPU", "Keyboard + Mouse", "the occasional VR headset"];
-const guildChannel    = "#vfx(animation)-and-tech-art";
-const sendAMessage    = "shoubhikbhattacharya06@gmail.com";
+[====================== SYSTEM OVERVIEW ======================]
+ STATUS     : 🟢 Active Dev      | EXPERIENCE : 3+ Years (Game Journey)
+ LOCATION   : Bhopal, MP, India  | ROLE       : Technical Artist & Game Designer
+ ENGINE     : Unreal, Unity      | PIPELINE   : Blender ➡️ Figma ➡️ Game Code
+[=============================================================]
 ```
 
-<br/>
+---
 
-## ✦ INVENTORY — Skills & Tech Stack
+## 🌌 THE GAMING JOURNEY (3+ Years)
+Bridging the gap between stunning visual fidelity and optimized codebase performance. I specialize in building assets, writing shaders, designing immersive gameplay loops, and engineering smooth web/game interfaces.
 
-<table>
+### 📈 PROJECT PIPELINE METRICS
+* 🚀 **1 BIG PROJECT** — *Active Development* (Confidential high-fidelity title)
+* 🎮 **4 SMALL PROJECTS** — Completed gameplay prototypes, interactive sims, and web integrations.
 
-<tr>
-<td><b>🎨 ART KIT</b></td>
-</tr>
+---
 
-<tr>
-<td>
-<img src="https://skillicons.dev/icons?i=blender,figma,photoshop,aftereffects,premiere" />
-</td>
-</tr>
-
-<tr>
-<td><b>⚙️ TECH ARSENAL</b></td>
-</tr>
-
-<tr>
-<td>
-<img src="https://skillicons.dev/icons?i=unity,unrealengine,cpp,cs,python,git,github,vscode,visualstudio" />
-</td>
-</tr>
-
-<tr>
-<td><b>🎮 GAMEDEV KIT</b></td>
-</tr>
-
-<tr>
-<td>
-<img src="https://skillicons.dev/icons?i=blender,unity,unrealengine" />
-<img src="https://go-skill-icons.vercel.app/api/icons?i=maya,epicgames" />
-</td>
-</tr>
-
-</table>
-
-## ✦ ACTIVE MISSIONS
+## 🛠️ TECH STACK & ENGINE SPECS (INVENTORY)
 
 <table>
-<tr>
-<th>MISSION</th>
-<th>STATUS</th>
-<th>ACTION</th>
-</tr>
-
-<tr>
-<td>
-
-### 🏎️ CAR CHASING SIM
-Arcade Racing • HTML5
-
-</td>
-
-<td>🟢 Complete</td>
-
-<td>
-
-<a href="https://github.com/Shoubhik95/Car-Game-HTML-CSS-JS">
-<img src="https://img.shields.io/badge/▶_PLAY_NOW-2DE2E6?style=for-the-badge&labelColor=06060F"/>
-
-</a>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-### 🌍 VR CAMPUS TOUR
-Exploration • Unreal Engine 5
-
-</td>
-
-<td>🟢 Complete</td>
-
-<td>
-
-<a href="#">
-<img src="https://img.shields.io/badge/🌍_EXPLORE-9B5CFF?style=for-the-badge&labelColor=06060F"/>
-
-</a>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-### 💼 PORTFOLIO
-Personal Website
-
-</td>
-
-<td>🟢 Online</td>
-
-<td>
-
-<a href="https://shoubhik-bhattacharya-portfolio.vercel.app/">
-<img src="https://img.shields.io/badge/🚀_VISIT-FF4FD8?style=for-the-badge&labelColor=06060F"/>
-
-</a>
-
-</td>
-
-</tr>
-
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💻 Programming Languages</h3>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+      <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎮 Game Dev Engines</h3>
+      <img src="https://img.shields.io/badge/Unreal_Engine_5-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white" />
+      <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎨 Game Design & Art</h3>
+      <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" />
+      <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+      <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌐 Web Development</h3>
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+    </td>
+  </tr>
 </table>
 
-## ✦ GAME OVER? NAH — NEW GAME +
+---
+
+## 🎯 DEPLOYED OPERATIONS (PROJECTS)
+
+### 👑 THE BIG PROJECT (In Development)
+* **Status**: 🛠️ In Production (Deep-dive mechanics, AAA pipeline integration)
+* **Tech Stack**: Unreal Engine 5 / Unity, Blender, advanced custom shaders, and optimization tools.
+
+### 🕹️ THE SMALL PROJECTS
+1. **🏎️ Car Chasing Sim** | *Arcade Racing Game*
+   * Arcade physics, responsive controls, and high-performance browser rendering.
+   * **Tech**: HTML5, CSS3, Vanilla JS
+   * [▶ Play Now](https://github.com/Shoubhik95/Car-Game-HTML-CSS-JS)
+2. **🌍 VR Campus Tour** | *Immersive Exploration*
+   * Interactive virtual walk-through with fully interactive elements and realistic scale modeling.
+   * **Tech**: Unreal Engine 5, Blender
+3. **💼 Personal Portfolio** | *Vibrant Web Showcase*
+   * A premium, interactive design system displaying game artwork and technical breakdowns.
+   * **Tech**: Figma, HTML, CSS, JavaScript, Vercel
+   * [🚀 Visit Site](https://shoubhik-bhattacharya-portfolio.vercel.app/)
+4. **📦 Game Mechanics Sandbox** | *C# / C++ Scripts*
+   * Collection of reusable gameplay modules, movement controllers, and custom shader graphs.
+   * **Tech**: Unity (C#) / Unreal (C++)
+
+---
+
+## 📊 GITHUB METRICS & ANALYTICS
 
 <div align="center">
+  <table border="0">
+    <tr>
+      <td align="center" width="50%">
+        <img src="https://github-readme-stats.vercel.app/api?username=Shoubhik95&show_icons=true&theme=tokyonight&count_private=true&hide_title=false" alt="GitHub Stats" width="100%"/>
+      </td>
+      <td align="center" width="50%">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shoubhik95&layout=compact&theme=tokyonight" alt="Top Languages" width="100%"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shoubhik95&theme=tokyonight" alt="GitHub Streak" width="100%"/>
+      </td>
+    </tr>
+  </table>
+</div>
 
-<img src="./Footer.svg" width="100%" alt="footer"/>
+---
 
-<br/>
+## ⭐ FEATURED REPOSITORIES
 
-<a href="mailto:shoubhikbhattacharya06@gmail.com"><img src="https://img.shields.io/badge/EMAIL-06060F?style=for-the-badge&logo=gmail&logoColor=FF4FD8" /></a>
-<a href="www.linkedin.com/in/shoubhik-bhattacharya-8b4099324"><img src="https://img.shields.io/badge/LINKEDIN-06060F?style=for-the-badge&logo=linkedin&logoColor=2DE2E6" /></a>
-<a href="https://shoubhik-bhattacharya.itch.io/"><img src="https://img.shields.io/badge/ITCH.IO-06060F?style=for-the-badge&logo=itchdotio&logoColor=9B5CFF" /></a>
+<div align="center">
+  <a href="https://github.com/Shoubhik95/Car-Game-HTML-CSS-JS">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shoubhik95&repo=Car-Game-HTML-CSS-JS&theme=tokyonight" />
+  </a>
+</div>
 
-<br/><br/>
+---
 
-<img src="https://komarev.com/ghpvc/?username=Shoubhik95&style=for-the-badge&color=2DE2E6&labelColor=06060F&label=PLAYER+VISITS" />
-
+<div align="center">
+  <img src="./Footer.svg" width="100%" alt="footer"/>
+  
+  <br/>
+  
+  <img src="https://komarev.com/ghpvc/?username=Shoubhik95&style=for-the-badge&color=00E5FF&labelColor=06060F&label=DASHBOARD+VISITS" />
 </div>

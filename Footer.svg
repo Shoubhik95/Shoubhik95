@@ -1,80 +1,70 @@
-<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 950 180" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="fBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#120B2E"/>
-      <stop offset="55%" stop-color="#0B0A1F"/>
-      <stop offset="100%" stop-color="#06060F"/>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#03050a"/>
+      <stop offset="50%" stop-color="#070a13"/>
+      <stop offset="100%" stop-color="#0a0f1d"/>
     </linearGradient>
-    <linearGradient id="fTitleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+
+    <!-- Neon Accents -->
+    <linearGradient id="neonAcc" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FF4FD8"/>
-      <stop offset="55%" stop-color="#9B5CFF"/>
-      <stop offset="100%" stop-color="#2DE2E6"/>
+      <stop offset="50%" stop-color="#9B5CFF"/>
+      <stop offset="100%" stop-color="#00E5FF"/>
     </linearGradient>
-    <radialGradient id="fCore" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="40%" stop-color="#9B5CFF"/>
-      <stop offset="100%" stop-color="#9B5CFF" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="fHex" width="34" height="30" patternUnits="userSpaceOnUse">
-      <path d="M17 0 L34 8.6 L34 21.4 L17 30 L0 21.4 L0 8.6 Z" fill="none" stroke="#2DE2E6" stroke-opacity="0.07"/>
+
+    <!-- Tech Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#9B5CFF" stroke-opacity="0.04" stroke-width="1"/>
     </pattern>
-    <filter id="fGlow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
-  <rect width="900" height="260" fill="url(#fBg)"/>
-  <rect width="900" height="260" fill="url(#fHex)"/>
-  <rect x="6" y="6" width="888" height="248" rx="6" fill="none" stroke="#2DE2E6" stroke-opacity="0.18"/>
+  <!-- Background -->
+  <rect width="950" height="180" fill="url(#bgGrad)"/>
+  <rect width="950" height="180" fill="url(#grid)"/>
 
-  <g stroke="#2DE2E6" stroke-width="2" fill="none" stroke-linecap="round">
-    <path d="M18,40 L18,18 L40,18"/>
-    <path d="M860,18 L882,18 L882,40"/>
-    <path d="M18,220 L18,242 L40,242"/>
-    <path d="M882,220 L882,242 L860,242"/>
-  </g>
+  <!-- Top Border line -->
+  <line x1="20" y1="10" x2="930" y2="10" stroke="#9B5CFF" stroke-opacity="0.2" stroke-width="1"/>
 
-  <!-- closing portal, left -->
-  <g transform="translate(150,128)">
-    <circle r="70" fill="none" stroke="#2DE2E6" stroke-opacity="0.4" stroke-width="1.5">
-      <animate attributeName="r" values="70;62;70" dur="3.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="86" fill="none" stroke="#FF4FD8" stroke-opacity="0.3" stroke-dasharray="3 8">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="22s" repeatCount="indefinite"/>
-    </circle>
-    <g stroke="#9B5CFF" stroke-opacity="0.45" stroke-width="1">
-      <line x1="0" y1="-58" x2="0" y2="-20"/>
-      <line x1="41" y1="-41" x2="14" y2="-14"/>
-      <line x1="58" y1="0" x2="20" y2="0"/>
-      <line x1="41" y1="41" x2="14" y2="14"/>
-      <line x1="0" y1="58" x2="0" y2="20"/>
-      <line x1="-41" y1="41" x2="-14" y2="14"/>
-      <line x1="-58" y1="0" x2="-20" y2="0"/>
-      <line x1="-41" y1="-41" x2="-14" y2="-14"/>
-    </g>
-    <circle r="16" fill="url(#fCore)" filter="url(#fGlow)">
-      <animate attributeName="opacity" values="0.9;0.4;0.9" dur="2.4s" repeatCount="indefinite"/>
+  <!-- Left HUD Element (Module Connection) -->
+  <g transform="translate(40, 45)">
+    <rect width="250" height="90" rx="8" fill="#04060b" stroke="#FF4FD8" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="15" y="25" font-family="'Courier New', monospace" font-size="10" fill="#FF4FD8" font-weight="bold">MODULE: CORE_SHIELD</text>
+    <text x="15" y="45" font-family="system-ui, sans-serif" font-weight="800" font-size="14" fill="#ffffff">SYSTEM CONNECTED</text>
+    <text x="15" y="70" font-family="'Courier New', monospace" font-size="11" fill="#8c9fc2">STATUS: STABLE // PING: 12ms</text>
+    
+    <!-- Connection Dots -->
+    <circle cx="215" cy="45" r="6" fill="#00E5FF"/>
+    <circle cx="215" cy="45" r="10" fill="none" stroke="#00E5FF" stroke-opacity="0.5">
+      <animate attributeName="r" values="6;16;6" dur="2s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <!-- text block -->
-  <g>
-    <text x="290" y="92" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="34" fill="#7D8AB0" text-decoration="line-through">GAME OVER?</text>
-    <text x="290" y="138" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="42" letter-spacing="1" fill="url(#fTitleGrad)">NAH — NEW GAME +</text>
-    <text x="290" y="168" font-family="'Courier New',Consolas,monospace" font-size="14" letter-spacing="1.5" fill="#9FB4D6">READY TO BUILD SOMETHING IMMERSIVE TOGETHER?</text>
-    <rect x="290" y="182" width="64" height="3" fill="#2DE2E6"/>
+  <!-- Center Text (NEW GAME + / Call To Action) -->
+  <g transform="translate(320, 45)">
+    <text x="155" y="28" font-family="system-ui, sans-serif" font-weight="900" font-size="26" fill="url(#neonAcc)" letter-spacing="2" text-anchor="middle">NEW GAME +</text>
+    <text x="155" y="52" font-family="'Courier New', monospace" font-weight="bold" font-size="12" fill="#ffffff" letter-spacing="1" text-anchor="middle">LET'S BUILD SOMETHING LEGENDARY</text>
+    <text x="155" y="75" font-family="system-ui, sans-serif" font-size="11" fill="#8c9fc2" text-anchor="middle">Reach out to start a quest: shoubhikbhattacharya06@gmail.com</text>
   </g>
 
-  <line x1="18" y1="206" x2="882" y2="206" stroke="#2DE2E6" stroke-opacity="0.15"/>
-
-  <g>
-    <circle cx="40" cy="226" r="4" fill="#2DE2E6"/>
-    <circle cx="56" cy="226" r="4" fill="#9B5CFF"/>
-    <circle cx="72" cy="226" r="4" fill="#FF4FD8"/>
-    <text x="450" y="230" text-anchor="middle" font-family="'Courier New',Consolas,monospace" font-size="12" letter-spacing="3" fill="#6B7AA1">THANKS FOR PLAYING</text>
-    <circle cx="828" cy="226" r="4" fill="#FF4FD8"/>
-    <circle cx="844" cy="226" r="4" fill="#9B5CFF"/>
-    <circle cx="860" cy="226" r="4" fill="#2DE2E6"/>
+  <!-- Right HUD Element (Project Analytics) -->
+  <g transform="translate(660, 45)">
+    <rect width="250" height="90" rx="8" fill="#04060b" stroke="#00E5FF" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="15" y="25" font-family="'Courier New', monospace" font-size="10" fill="#00E5FF" font-weight="bold">MODULE: BUILD_LOGGER</text>
+    <text x="15" y="45" font-family="system-ui, sans-serif" font-weight="800" font-size="14" fill="#ffffff">5 DEPLOYED BUILDS</text>
+    <text x="15" y="70" font-family="'Courier New', monospace" font-size="11" fill="#8c9fc2">4 SMALL // 1 ACTIVE BIG</text>
   </g>
+
+  <!-- Footer Bottom bar -->
+  <g transform="translate(20, 155)">
+    <text x="0" y="10" font-family="'Courier New', monospace" font-size="10" fill="#8c9fc2">© 2026 SHOUBHIK BHATTACHARYA</text>
+    <text x="910" y="10" font-family="'Courier New', monospace" font-size="10" fill="#8c9fc2" text-anchor="end">SYS_VERSION: 3.4.1</text>
+  </g>
+
+  <!-- Frame Corners -->
+  <path d="M 12 20 L 12 12 L 20 12" stroke="#9B5CFF" stroke-width="2" fill="none"/>
+  <path d="M 938 20 L 938 12 L 930 12" stroke="#9B5CFF" stroke-width="2" fill="none"/>
+  <path d="M 12 160 L 12 168 L 20 168" stroke="#9B5CFF" stroke-width="2" fill="none"/>
+  <path d="M 938 160 L 938 168 L 930 168" stroke="#9B5CFF" stroke-width="2" fill="none"/>
 </svg>
