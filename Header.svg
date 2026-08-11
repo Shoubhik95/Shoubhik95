@@ -81,7 +81,7 @@
 
   <!-- Right Side: Text & Dashboard Data -->
   <!-- Name -->
-  <text x="340" y="95" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="44" fill="url(#titleGrad)" letter-spacing="1">SHOUBHIK BHATTACHARYA</text>
+  <text x="330" y="95" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="38" fill="url(#titleGrad)" letter-spacing="0.5">SHOUBHIK BHATTACHARYA</text>
   
   <!-- Role / Subtitle -->
   <text x="342" y="130" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#ffffff" letter-spacing="3">TECHNICAL ARTIST &amp; GAME DESIGNER</text>

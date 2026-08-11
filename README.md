@@ -1,7 +1,7 @@
 
 <div align="center">
   
-  <a href="https://shoubhik-bhattacharya-portfolio.vercel.app/"><img src="./Header.svg?v=5" alt="Shoubhik Bhattacharya — Game Artist / Technical Artist" width="100%" /></a>
+  <a href="https://shoubhik-bhattacharya-portfolio.vercel.app/"><img src="./Header.svg?v=6" alt="Shoubhik Bhattacharya — Game Artist / Technical Artist" width="100%" /></a>
 
   <br/>
 
