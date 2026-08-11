@@ -1,4 +1,4 @@
-# 📊 SHOUBHIK BHATTACHARYA | TECHNICAL ARTIST & GAME DESIGNER
+
 <div align="center">
   
   <img src="./Header.svg" alt="Shoubhik Bhattacharya — Game Artist / Technical Artist" width="100%" />
