@@ -1,7 +1,7 @@
 
 <div align="center">
   
-  <img src="./Header.svg" alt="Shoubhik Bhattacharya — Game Artist / Technical Artist" width="100%" />
+  <img src="https://raw.githubusercontent.com/Shoubhik95/Shoubhik95/main/Header.svg?v=2" alt="Shoubhik Bhattacharya — Game Artist / Technical Artist" width="100%" />
 
   <br/>
 
@@ -123,7 +123,7 @@ Bridging the gap between stunning visual fidelity and optimized codebase perform
 ---
 
 <div align="center">
-  <img src="./Footer.svg" width="100%" alt="footer"/>
+  <img src="https://raw.githubusercontent.com/Shoubhik95/Shoubhik95/main/Footer.svg?v=2" width="100%" alt="footer"/>
   
   <br/>
   
