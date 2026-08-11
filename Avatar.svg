@@ -1,54 +1,96 @@
 <svg viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style>
-      .mc-font-bold { font-family: 'Courier New', Courier, monospace; font-weight: 900; }
-      .pixel-text { font-family: 'Courier New', Courier, monospace; image-rendering: pixelated; }
-    </style>
+    <!-- Background Radial Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a122c"/>
+      <stop offset="70%" stop-color="#050814"/>
+      <stop offset="100%" stop-color="#020308"/>
+    </radialGradient>
 
-    <!-- Dirt/Stone Pixel Pattern -->
-    <pattern id="mcDirt" width="40" height="40" patternUnits="userSpaceOnUse">
-      <rect width="40" height="40" fill="#1e140d"/>
-      <rect x="0" y="0" width="10" height="10" fill="#2d1e13"/>
-      <rect x="20" y="10" width="10" height="10" fill="#2d1e13"/>
-      <rect x="10" y="20" width="10" height="10" fill="#2d1e13"/>
-      <rect x="30" y="30" width="10" height="10" fill="#2d1e13"/>
-      <rect x="10" y="0" width="10" height="10" fill="#120c08"/>
-      <rect x="30" y="10" width="10" height="10" fill="#120c08"/>
-      <rect x="0" y="20" width="10" height="10" fill="#120c08"/>
-      <rect x="20" y="30" width="10" height="10" fill="#120c08"/>
-    </pattern>
+    <!-- Glowing Colors -->
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#9B5CFF"/>
+      <stop offset="100%" stop-color="#FF4FD8"/>
+    </linearGradient>
 
-    <filter id="mcShadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="2" dy="2" stdDeviation="0" flood-color="#3f3f3f" flood-opacity="1"/>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
-  <!-- Background -->
-  <rect width="250" height="250" rx="12" fill="url(#mcDirt)" stroke="#4a3b32" stroke-width="6"/>
-  <rect x="6" y="6" width="238" height="238" fill="none" stroke="#000000" stroke-opacity="0.4" stroke-width="3" rx="8"/>
+  <!-- Base Grid Container -->
+  <rect width="250" height="250" rx="16" fill="url(#bgGrad)" stroke="#9B5CFF" stroke-opacity="0.2" stroke-width="1.5"/>
 
-  <!-- Pixelated Block in the center -->
-  <g transform="translate(65, 55)">
-    <!-- Base block face -->
-    <rect width="120" height="120" fill="#737373" stroke="#000000" stroke-width="4"/>
+  <!-- Scanning lines/Grid pattern in background -->
+  <g stroke="#00E5FF" stroke-opacity="0.08" stroke-width="1">
+    <line x1="25" y1="0" x2="25" y2="250" />
+    <line x1="50" y1="0" x2="50" y2="250" />
+    <line x1="75" y1="0" x2="75" y2="250" />
+    <line x1="100" y1="0" x2="100" y2="250" />
+    <line x1="125" y1="0" x2="125" y2="250" />
+    <line x1="150" y1="0" x2="150" y2="250" />
+    <line x1="175" y1="0" x2="175" y2="250" />
+    <line x1="200" y1="0" x2="200" y2="250" />
+    <line x1="225" y1="0" x2="225" y2="250" />
     
-    <!-- Diamond veins on the block -->
-    <rect x="12" y="12" width="20" height="20" fill="#55ffff"/>
-    <rect x="16" y="16" width="12" height="12" fill="#ffffff"/>
-    
-    <rect x="88" y="12" width="20" height="20" fill="#55ffff"/>
-    <rect x="92" y="16" width="12" height="12" fill="#ffffff"/>
-
-    <rect x="12" y="88" width="20" height="20" fill="#55ffff"/>
-    <rect x="16" y="92" width="12" height="12" fill="#ffffff"/>
-
-    <rect x="88" y="88" width="20" height="20" fill="#55ffff"/>
-    <rect x="92" y="92" width="12" height="12" fill="#ffffff"/>
-
-    <!-- Central letters "SB" in pixel text -->
-    <text x="60" y="72" class="mc-font-bold pixel-text" font-size="34" fill="#FFFF55" text-anchor="middle" filter="url(#mcShadow)">SB</text>
+    <line x1="0" y1="25" x2="250" y2="25" />
+    <line x1="0" y1="50" x2="250" y2="50" />
+    <line x1="0" y1="75" x2="250" y2="75" />
+    <line x1="0" y1="100" x2="250" y2="100" />
+    <line x1="0" y1="125" x2="250" y2="125" />
+    <line x1="0" y1="150" x2="250" y2="150" />
+    <line x1="0" y1="175" x2="250" y2="175" />
+    <line x1="0" y1="200" x2="250" y2="200" />
+    <line x1="0" y1="225" x2="250" y2="225" />
   </g>
 
+  <!-- Animated HUD Reticle Rings -->
+  <g transform="translate(125, 125)">
+    <!-- Outer dashed circle -->
+    <circle r="92" fill="none" stroke="#FF4FD8" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="8 12">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Middle pointer ring -->
+    <circle r="78" fill="none" stroke="#00E5FF" stroke-opacity="0.4" stroke-width="2" stroke-dasharray="40 180">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="10s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Inner solid tech ring -->
+    <circle r="68" fill="none" stroke="url(#ringGrad)" stroke-opacity="0.8" stroke-width="2.5" filter="url(#glow)"/>
+
+    <!-- Reticle Ticks -->
+    <line x1="0" y1="-78" x2="0" y2="-68" stroke="#00E5FF" stroke-width="1.5"/>
+    <line x1="0" y1="68" x2="0" y2="78" stroke="#00E5FF" stroke-width="1.5"/>
+    <line x1="-78" y1="0" x2="-68" y2="0" stroke="#00E5FF" stroke-width="1.5"/>
+    <line x1="68" y1="0" x2="78" y2="0" stroke="#00E5FF" stroke-width="1.5"/>
+
+    <!-- Futuristic Emblem Core (3D/VFX Shading Icon) -->
+    <!-- Node Box -->
+    <polygon points="-30,-15 30,-15 40,15 -40,15" fill="#04060b" stroke="#9B5CFF" stroke-width="2" filter="url(#glow)"/>
+    <text x="0" y="5" font-family="system-ui, sans-serif" font-weight="900" font-size="18" fill="#ffffff" text-anchor="middle" letter-spacing="1">SB</text>
+    
+    <!-- Coordinate Nodes Orbiting -->
+    <circle cx="-30" cy="-15" r="4" fill="#00E5FF" />
+    <circle cx="30" cy="-15" r="4" fill="#00E5FF"/>
+    <circle cx="40" cy="15" r="4" fill="#FF4FD8"/>
+    <circle cx="-40" cy="15" r="4" fill="#FF4FD8"/>
+
+    <path d="M-30,-15 L0,-35 L30,-15" fill="none" stroke="#00E5FF" stroke-opacity="0.5" stroke-width="1.5"/>
+    <circle cx="0" cy="-35" r="3.5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Frame Corners -->
+  <path d="M 12 24 L 12 12 L 24 12" stroke="#00E5FF" stroke-width="2.5" fill="none"/>
+  <path d="M 238 24 L 238 12 L 226 12" stroke="#00E5FF" stroke-width="2.5" fill="none"/>
+  <path d="M 12 226 L 12 238 L 24 238" stroke="#00E5FF" stroke-width="2.5" fill="none"/>
+  <path d="M 238 226 L 238 238 L 226 238" stroke="#00E5FF" stroke-width="2.5" fill="none"/>
+  
   <!-- Status Text -->
-  <text x="125" y="215" class="pixel-text" font-size="10" fill="#55FF55" text-anchor="middle" filter="url(#mcShadow)">[TA_CORE ACTIVE]</text>
+  <text x="125" y="235" font-family="'Courier New', monospace" font-size="9" fill="#00E5FF" font-weight="bold" text-anchor="middle" letter-spacing="2">SYS_ONLINE // TA_CORE</text>
 </svg>
